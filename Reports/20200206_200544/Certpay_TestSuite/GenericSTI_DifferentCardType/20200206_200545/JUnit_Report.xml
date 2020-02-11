@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="GenericSTI_DifferentCardType" time="28.497" tests="1" failures="0" errors="1">
+   <testsuite name="GenericSTI_DifferentCardType" tests="1" failures="0" errors="1" time="28.497" timestamp="2020-02-06 20:05:49" hostname="admin - SYS8" id="Test Suites/Certpay_TestSuite/GenericSTI_DifferentCardType">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\CertpayGeneric\\Reports\\20200206_200544\\Certpay_TestSuite\\GenericSTI_DifferentCardType\\20200206_200545"/>
+         <property name="logFiles" value="D:\\CertpayGeneric\\Reports\\20200206_200544\\Certpay_TestSuite\\GenericSTI_DifferentCardType\\20200206_200545\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="admin - SYS8"/>
+         <property name="os" value="Windows 10 32bit"/>
+         <property name="katalonVersion" value="7.1.2.1"/>
+         <property name="browser" value="Chrome 79.0.3945.130"/>
+         <property name="hostAddress" value="172.31.252.142"/>
+         <property name="sessionId" value="b70c858621f38b47a3918345fa7a6d7e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Certpay_GenericSTI/TC_001_SingleLinePayments" time="27.264" classname="Test Cases/Certpay_GenericSTI/TC_001_SingleLinePayments" status="ERROR">
+         <error type="ERROR" message="Test Cases/Certpay_GenericSTI/TC_001_SingleLinePayments FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Address for class: utilities.SafeActions
+	at utilities.SafeActions.CreateXML(SafeActions.groovy:308)
+	at utilities.SafeActions.invokeMethod(SafeActions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_001_SingleLinePayments.run(TC_001_SingleLinePayments:78)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580999745149.run(TempTestSuite1580999745149.groovy:36)
+"/>
+         <system-out><![CDATA[2020-02-06 20:05:49 - [TEST_CASE][ERROR] - Test Cases/Certpay_GenericSTI/TC_001_SingleLinePayments: Test Cases/Certpay_GenericSTI/TC_001_SingleLinePayments FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Address for class: utilities.SafeActions
+	at utilities.SafeActions.CreateXML(SafeActions.groovy:308)
+	at utilities.SafeActions.invokeMethod(SafeActions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_001_SingleLinePayments.run(TC_001_SingleLinePayments:78)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580999745149.run(TempTestSuite1580999745149.groovy:36)
+
+
+2020-02-06 20:05:50 - [TEST_STEP][PASSED] - data = findTestData("Data Files/Certpay/CardTypes_SingleLinePayment"): null
+
+2020-02-06 20:05:51 - [TEST_STEP][ERROR] - for (def index : (1..data.getRowNumbers())): No such property: Address for class: utilities.SafeActions
+
+2020-02-06 20:05:51 - [TEST_STEP][PASSED] - FirstName = data.getValue("FirstName", index): null
+
+2020-02-06 20:05:51 - [TEST_STEP][PASSED] - LastName = data.getValue("LastName", index): null
+
+2020-02-06 20:05:51 - [TEST_STEP][PASSED] - Amount = data.getValue("Amount", index): null
+
+2020-02-06 20:05:51 - [TEST_STEP][PASSED] - cardNum = data.getValue("CardNumber", index): null
+
+2020-02-06 20:05:51 - [TEST_STEP][PASSED] - expMonth = data.getValue("ExpMonth", index): null
+
+2020-02-06 20:05:51 - [TEST_STEP][PASSED] - expYear = data.getValue("ExpYear", index): null
+
+2020-02-06 20:05:51 - [TEST_STEP][PASSED] - securityCode = data.getValue("SecurityCode", index): null
+
+2020-02-06 20:05:51 - [TEST_STEP][PASSED] - cardType = data.getValue("CardType", index): null
+
+2020-02-06 20:05:51 - [TEST_STEP][PASSED] - Comments = data.getValue("Comments", index): null
+
+2020-02-06 20:05:51 - [TEST_STEP][PASSED] - Address1 = data.getValue("Address1", index): null
+
+2020-02-06 20:05:51 - [TEST_STEP][PASSED] - Address2 = data.getValue("Address2", index): null
+
+2020-02-06 20:05:51 - [TEST_STEP][PASSED] - City = data.getValue("City", index): null
+
+2020-02-06 20:05:51 - [TEST_STEP][PASSED] - State = data.getValue("State", index): null
+
+2020-02-06 20:05:51 - [TEST_STEP][PASSED] - Postal = data.getValue("Postal", index): null
+
+2020-02-06 20:05:51 - [TEST_STEP][PASSED] - Telephone = data.getValue("Telephone", index): null
+
+2020-02-06 20:05:51 - [TEST_STEP][PASSED] - Email = data.getValue("EmailAddress", index): null
+
+2020-02-06 20:05:51 - [TEST_STEP][PASSED] - AccountType = data.getValue("AccountType", index): null
+
+2020-02-06 20:05:51 - [TEST_STEP][PASSED] - RoutingNumber = data.getValue("RoutingNumber", index): null
+
+2020-02-06 20:05:51 - [TEST_STEP][PASSED] - AccountNumber = data.getValue("AccountNumber", index): null
+
+2020-02-06 20:05:51 - [TEST_STEP][PASSED] - ConfirmAccountNumber = data.getValue("ConfirmAccountNumber", index): null
+
+2020-02-06 20:05:51 - [TEST_STEP][PASSED] - Signature = data.getValue("Signature", index): null
+
+2020-02-06 20:05:51 - [TEST_STEP][PASSED] - Agreement = data.getValue("Agreement", index): null
+
+2020-02-06 20:05:51 - [TEST_STEP][PASSED] - utilities.SafeActions.openBrowser(Genericsti_url, [pageLoadTime]): Browser launched successfully
+
+2020-02-06 20:05:52 - [MESSAGE][INFO] - Opening Browser
+
+2020-02-06 20:05:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-02-06 20:05:52 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-02-06 20:06:07 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa-certpaygenericsti.faps.net/genericsti/demo/'
+
+2020-02-06 20:06:08 - [MESSAGE][PASSED] - Current window maximized
+
+2020-02-06 20:06:08 - [MESSAGE][PASSED] - Browser launched successfully
+
+2020-02-06 20:06:08 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Demo_Pages/BEGIN_PAYMENT"), "Begin Payment", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Begin Payment
+
+2020-02-06 20:06:08 - [MESSAGE][INFO] - safeClicking
+
+2020-02-06 20:06:09 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Demo_Pages/BEGIN_PAYMENT' is present
+
+2020-02-06 20:06:12 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Demo_Pages/BEGIN_PAYMENT' is clickable
+
+2020-02-06 20:06:16 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Demo_Pages/BEGIN_PAYMENT' is clicked on
+
+2020-02-06 20:06:16 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Begin Payment
+
+2020-02-06 20:06:16 - [TEST_STEP][ERROR] - XMLString = utilities.SafeActions.CreateXML(FirstName, LastName, Amount, Address1, Address2, City, State, Postal, Email, Telephone): No such property: Address for class: utilities.SafeActions
+
+2020-02-06 20:06:16 - [MESSAGE][INFO] - Create XML
+
+2020-02-06 20:06:17 - [MESSAGE][ERROR] - No such property: Address for class: utilities.SafeActions]]></system-out>
+         <system-err><![CDATA[2020-02-06 20:05:49 - [TEST_CASE][ERROR] - Test Cases/Certpay_GenericSTI/TC_001_SingleLinePayments: Test Cases/Certpay_GenericSTI/TC_001_SingleLinePayments FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Address for class: utilities.SafeActions
+	at utilities.SafeActions.CreateXML(SafeActions.groovy:308)
+	at utilities.SafeActions.invokeMethod(SafeActions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_001_SingleLinePayments.run(TC_001_SingleLinePayments:78)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580999745149.run(TempTestSuite1580999745149.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-02-06 20:05:49 - [TEST_SUITE][ERROR] - GenericSTI_DifferentCardType: Test Cases/Certpay_GenericSTI/TC_001_SingleLinePayments FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Address for class: utilities.SafeActions
+	at utilities.SafeActions.CreateXML(SafeActions.groovy:308)
+	at utilities.SafeActions.invokeMethod(SafeActions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_001_SingleLinePayments.run(TC_001_SingleLinePayments:78)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580999745149.run(TempTestSuite1580999745149.groovy:36)]]></system-out>
+      <system-err><![CDATA[2020-02-06 20:05:49 - [TEST_SUITE][ERROR] - GenericSTI_DifferentCardType: Test Cases/Certpay_GenericSTI/TC_001_SingleLinePayments FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Address for class: utilities.SafeActions
+	at utilities.SafeActions.CreateXML(SafeActions.groovy:308)
+	at utilities.SafeActions.invokeMethod(SafeActions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_001_SingleLinePayments.run(TC_001_SingleLinePayments:78)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580999745149.run(TempTestSuite1580999745149.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

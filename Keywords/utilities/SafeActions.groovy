@@ -24,7 +24,6 @@ import com.kms.katalon.core.exception.StepFailedException
 import com.kms.katalon.core.exception.KatalonRuntimeException
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-
 import internal.GlobalVariable
 
 public class SafeActions {
@@ -189,6 +188,9 @@ public class SafeActions {
 			KeywordUtil.markError(syn.getTestCasename()+friendlyWebElementName+" is not Clickable")
 		}
 	}
+
+
+
 	@Keyword
 	def String safeGetText(TestObject testObject,String friendlyWebElementName, int...optionWaitTime){
 		int waitTime=0;
@@ -293,5 +295,25 @@ public class SafeActions {
 	}
 
 
+	@Keyword
+	def String CreateXML (String FirstName,String LastName,String Amount,String Address1,String Address2,String City,String State,String Postal,String Email,String Telephone)
+	{
+
+		String xmlString=null;
+
+		try {
+
+
+			KeywordUtil.logInfo("Create XML")
+			xmlString="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;\n&lt;Transaction xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;\n    &lt;BT_ID&gt;123456789&lt;/BT_ID&gt;\n    &lt;Protocol&gt;\n        &lt;RTU&gt;https://certifiedpayments.net/&lt;/RTU&gt;\n        &lt;RLU&gt;https://certifiedpayments.net/&lt;/RLU&gt;\n    &lt;/Protocol&gt;\n    &lt;Billing&gt;\n        &lt;FN Return=&quot;false&quot;&gt;"+FirstName+"&lt;/FN&gt;\n        &lt;MN Return=&quot;false&quot;&gt;K.&lt;/MN&gt;\n        &lt;LN Return=&quot;false&quot;&gt;"+LastName+"&lt;/LN&gt;\n        &lt;Sufx Return=&quot;false&quot; /&gt;\n        &lt;AD1 Return=&quot;false&quot;&gt;"+Address1+"&lt;/AD1&gt;\n        &lt;AD2 Return=&quot;false&quot;&gt;"+Address2+"&lt;/AD2&gt;\n        &lt;CTY Return=&quot;false&quot;&gt;"+City+"&lt;/CTY&gt;\n        &lt;ST Return=&quot;false&quot;&gt;"+State+"&lt;/ST&gt;\n        &lt;CNTY Return=&quot;false&quot;&gt;US&lt;/CNTY&gt;\n        &lt;Phone Return=&quot;false&quot;&gt;555-1234&lt;/Phone&gt;\n        &lt;Postal Return=&quot;false&quot;&gt;"+Postal+"&lt;/Postal&gt;\n        &lt;Email Return=&quot;false&quot;&gt;"+Email+"&lt;/Email&gt;\n    &lt;/Billing&gt;\n    &lt;Items&gt;\n        &lt;CI&gt;\n            &lt;Amount Edit=&quot;true&quot;&gt;"+Amount+"&lt;/Amount&gt;\n            &lt;BC&gt;6100000&lt;/BC&gt;\n            &lt;CFS&gt;\n                &lt;CF Edit=&quot;false&quot; Return=&quot;false&quot;&gt;\n                    &lt;CFN&gt;Order Number&lt;/CFN&gt;\n                    &lt;CFV&gt;123456789&lt;/CFV&gt;\n                    &lt;VP&gt;\\d{9}&lt;/VP&gt;\n                &lt;/CF&gt;\n                &lt;CF Edit=&quot;false&quot; Return=&quot;false&quot;&gt;\n                    &lt;CFN&gt;Description&lt;/CFN&gt;\n                    &lt;CFV&gt;Speeding Ticket&lt;/CFV&gt;\n                    &lt;VP /&gt;\n                &lt;/CF&gt;\n            &lt;/CFS&gt;\n            &lt;FN&gt;"+FirstName+"&lt;/FN&gt;\n            &lt;MN&gt;K.&lt;/MN&gt;\n            &lt;LN&gt;"+LastName+"&lt;/LN&gt;\n            &lt;Sufx /&gt;\n            &lt;AD1&gt;"+Address1+"&lt;/AD1&gt;\n            &lt;AD2&gt;"+Address2+"&lt;/AD2&gt;\n            &lt;CTY&gt;"+City+"&lt;/CTY&gt;\n            &lt;ST&gt;"+State+"&lt;/ST&gt;\n            &lt;CNTY&gt;US&lt;/CNTY&gt;\n            &lt;Phone&gt;555-1234&lt;/Phone&gt;\n            &lt;Postal&gt;"+Postal+"&lt;/Postal&gt;\n        &lt;/CI&gt;\n      \n    &lt;/Items&gt;\n&lt;/Transaction&gt;";
+
+
+		}
+
+		catch (StepFailedException e){
+			KeywordUtil.Error("unable to create the XML")
+		}
+		return xmlString;
+	}
 
 }

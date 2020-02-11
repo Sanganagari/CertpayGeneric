@@ -1,0 +1,2351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="GenericSTI_DifferentCardType" time="409.873" tests="1" failures="0" errors="0">
+   <testsuite name="GenericSTI_DifferentCardType" tests="1" failures="0" errors="0" time="409.873" timestamp="2020-02-06 19:37:37" hostname="admin - SYS8" id="Test Suites/Certpay_TestSuite/GenericSTI_DifferentCardType">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\CertpayGeneric\\Reports\\20200206_193734\\Certpay_TestSuite\\GenericSTI_DifferentCardType\\20200206_193734"/>
+         <property name="logFiles" value="D:\\CertpayGeneric\\Reports\\20200206_193734\\Certpay_TestSuite\\GenericSTI_DifferentCardType\\20200206_193734\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="admin - SYS8"/>
+         <property name="os" value="Windows 10 32bit"/>
+         <property name="katalonVersion" value="7.1.2.1"/>
+         <property name="browser" value="Chrome 79.0.3945.130"/>
+         <property name="hostAddress" value="172.31.252.142"/>
+         <property name="sessionId" value="b21534071b5791044308125efbc026ea"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Certpay_GenericSTI/TC_001_SingleLinePayments" time="408.683" classname="Test Cases/Certpay_GenericSTI/TC_001_SingleLinePayments" status="PASSED">
+         <system-out><![CDATA[2020-02-06 19:37:37 - [TEST_CASE][PASSED] - Test Cases/Certpay_GenericSTI/TC_001_SingleLinePayments: Test Cases/Certpay_GenericSTI/TC_001_SingleLinePayments
+
+2020-02-06 19:37:38 - [TEST_STEP][PASSED] - data = findTestData("Data Files/Certpay/CardTypes_SingleLinePayment"): null
+
+2020-02-06 19:37:39 - [TEST_STEP][PASSED] - for (def index : (1..data.getRowNumbers())): GenericSTI_DifferentCardType.ts:Clicked on the Next
+
+2020-02-06 19:37:39 - [TEST_STEP][PASSED] - FirstName = data.getValue("FirstName", index): null
+
+2020-02-06 19:37:39 - [TEST_STEP][PASSED] - LastName = data.getValue("LastName", index): null
+
+2020-02-06 19:37:39 - [TEST_STEP][PASSED] - Amount = data.getValue("Amount", index): null
+
+2020-02-06 19:37:39 - [TEST_STEP][PASSED] - cardNum = data.getValue("CardNumber", index): null
+
+2020-02-06 19:37:39 - [TEST_STEP][PASSED] - expMonth = data.getValue("ExpMonth", index): null
+
+2020-02-06 19:37:39 - [TEST_STEP][PASSED] - expYear = data.getValue("ExpYear", index): null
+
+2020-02-06 19:37:39 - [TEST_STEP][PASSED] - securityCode = data.getValue("SecurityCode", index): null
+
+2020-02-06 19:37:39 - [TEST_STEP][PASSED] - cardType = data.getValue("CardType", index): null
+
+2020-02-06 19:37:39 - [TEST_STEP][PASSED] - Comments = data.getValue("Comments", index): null
+
+2020-02-06 19:37:39 - [TEST_STEP][PASSED] - Address = data.getValue("Address", index): null
+
+2020-02-06 19:37:39 - [TEST_STEP][PASSED] - Telephone = data.getValue("Telephone", index): null
+
+2020-02-06 19:37:39 - [TEST_STEP][PASSED] - Email = data.getValue("EmailAddress", index): null
+
+2020-02-06 19:37:39 - [TEST_STEP][PASSED] - AccountType = data.getValue("AccountType", index): null
+
+2020-02-06 19:37:39 - [TEST_STEP][PASSED] - RoutingNumber = data.getValue("RoutingNumber", index): null
+
+2020-02-06 19:37:39 - [TEST_STEP][PASSED] - AccountNumber = data.getValue("AccountNumber", index): null
+
+2020-02-06 19:37:39 - [TEST_STEP][PASSED] - ConfirmAccountNumber = data.getValue("ConfirmAccountNumber", index): null
+
+2020-02-06 19:37:39 - [TEST_STEP][PASSED] - Signature = data.getValue("Signature", index): null
+
+2020-02-06 19:37:39 - [TEST_STEP][PASSED] - Agreement = data.getValue("Agreement", index): null
+
+2020-02-06 19:37:39 - [TEST_STEP][PASSED] - utilities.SafeActions.openBrowser(Genericsti_url, [pageLoadTime]): Browser launched successfully
+
+2020-02-06 19:37:40 - [MESSAGE][INFO] - Opening Browser
+
+2020-02-06 19:37:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-02-06 19:37:40 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-02-06 19:37:46 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa-certpaygenericsti.faps.net/genericsti/demo/'
+
+2020-02-06 19:37:48 - [MESSAGE][PASSED] - Current window maximized
+
+2020-02-06 19:37:48 - [MESSAGE][PASSED] - Browser launched successfully
+
+2020-02-06 19:37:48 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Demo_Pages/BEGIN_PAYMENT"), "Begin Payment", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Begin Payment
+
+2020-02-06 19:37:48 - [MESSAGE][INFO] - safeClicking
+
+2020-02-06 19:37:48 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Demo_Pages/BEGIN_PAYMENT' is present
+
+2020-02-06 19:37:49 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Demo_Pages/BEGIN_PAYMENT' is clickable
+
+2020-02-06 19:37:50 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Demo_Pages/BEGIN_PAYMENT' is clicked on
+
+2020-02-06 19:37:50 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Begin Payment
+
+2020-02-06 19:37:50 - [TEST_STEP][PASSED] - XMLString = utilities.SafeActions.CreateXML(FirstName, LastName, Amount, Address, Email, Telephone): utilities.SafeActions.CreateXML is PASSED
+
+2020-02-06 19:37:50 - [MESSAGE][INFO] - Create XML
+
+2020-02-06 19:37:50 - [MESSAGE][PASSED] - utilities.SafeActions.CreateXML is PASSED
+
+2020-02-06 19:37:50 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_GENERICSTI/XML_Page/XML"), XMLString, "XMLContent", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Entered'&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;Transaction xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+    &lt;BT_ID&gt;123456789&lt;/BT_ID&gt;
+    &lt;Protocol&gt;
+        &lt;RTU&gt;https://certifiedpayments.net/&lt;/RTU&gt;
+        &lt;RLU&gt;https://certifiedpayments.net/&lt;/RLU&gt;
+    &lt;/Protocol&gt;
+    &lt;Billing&gt;
+        &lt;FN Return=&quot;false&quot;&gt;Susmitha&lt;/FN&gt;
+        &lt;MN Return=&quot;false&quot;&gt;K.&lt;/MN&gt;
+        &lt;LN Return=&quot;false&quot;&gt;A&lt;/LN&gt;
+        &lt;Sufx Return=&quot;false&quot; /&gt;
+        &lt;AD1 Return=&quot;false&quot;&gt;1320 Wall Street&lt;/AD1&gt;
+        &lt;AD2 Return=&quot;false&quot;&gt;Apt. A&lt;/AD2&gt;
+        &lt;CTY Return=&quot;false&quot;&gt;New York&lt;/CTY&gt;
+        &lt;ST Return=&quot;false&quot;&gt;NY&lt;/ST&gt;
+        &lt;CNTY Return=&quot;false&quot;&gt;US&lt;/CNTY&gt;
+        &lt;Phone Return=&quot;false&quot;&gt;555-1234&lt;/Phone&gt;
+        &lt;Postal Return=&quot;false&quot;&gt;10018&lt;/Postal&gt;
+        &lt;Email Return=&quot;false&quot;&gt;Test@knila.com&lt;/Email&gt;
+    &lt;/Billing&gt;
+    &lt;Items&gt;
+        &lt;CI&gt;
+            &lt;Amount Edit=&quot;true&quot;&gt;1.00&lt;/Amount&gt;
+            &lt;BC&gt;6100000&lt;/BC&gt;
+            &lt;CFS&gt;
+                &lt;CF Edit=&quot;false&quot; Return=&quot;false&quot;&gt;
+                    &lt;CFN&gt;Order Number&lt;/CFN&gt;
+                    &lt;CFV&gt;123456789&lt;/CFV&gt;
+                    &lt;VP&gt;\d{9}&lt;/VP&gt;
+                &lt;/CF&gt;
+                &lt;CF Edit=&quot;false&quot; Return=&quot;false&quot;&gt;
+                    &lt;CFN&gt;Description&lt;/CFN&gt;
+                    &lt;CFV&gt;Speeding Ticket&lt;/CFV&gt;
+                    &lt;VP /&gt;
+                &lt;/CF&gt;
+            &lt;/CFS&gt;
+            &lt;FN&gt;Susmitha&lt;/FN&gt;
+            &lt;MN&gt;K.&lt;/MN&gt;
+            &lt;LN&gt;A&lt;/LN&gt;
+            &lt;Sufx /&gt;
+            &lt;AD1&gt;1320 Wall Street&lt;/AD1&gt;
+            &lt;AD2&gt;Apt. A&lt;/AD2&gt;
+            &lt;CTY&gt;New York&lt;/CTY&gt;
+            &lt;ST&gt;NY&lt;/ST&gt;
+            &lt;CNTY&gt;US&lt;/CNTY&gt;
+            &lt;Phone&gt;555-1234&lt;/Phone&gt;
+            &lt;Postal&gt;10018&lt;/Postal&gt;
+        &lt;/CI&gt;
+      
+    &lt;/Items&gt;
+&lt;/Transaction&gt; into XMLContent
+
+2020-02-06 19:37:51 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/XML_Page/XML' is present
+
+2020-02-06 19:37:51 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/XML_Page/XML' is visible
+
+2020-02-06 19:37:51 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/XML_Page/XML' is present
+
+2020-02-06 19:38:01 - [MESSAGE][PASSED] - Text '&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;Transaction xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+    &lt;BT_ID&gt;123456789&lt;/BT_ID&gt;
+    &lt;Protocol&gt;
+        &lt;RTU&gt;https://certifiedpayments.net/&lt;/RTU&gt;
+        &lt;RLU&gt;https://certifiedpayments.net/&lt;/RLU&gt;
+    &lt;/Protocol&gt;
+    &lt;Billing&gt;
+        &lt;FN Return=&quot;false&quot;&gt;Susmitha&lt;/FN&gt;
+        &lt;MN Return=&quot;false&quot;&gt;K.&lt;/MN&gt;
+        &lt;LN Return=&quot;false&quot;&gt;A&lt;/LN&gt;
+        &lt;Sufx Return=&quot;false&quot; /&gt;
+        &lt;AD1 Return=&quot;false&quot;&gt;1320 Wall Street&lt;/AD1&gt;
+        &lt;AD2 Return=&quot;false&quot;&gt;Apt. A&lt;/AD2&gt;
+        &lt;CTY Return=&quot;false&quot;&gt;New York&lt;/CTY&gt;
+        &lt;ST Return=&quot;false&quot;&gt;NY&lt;/ST&gt;
+        &lt;CNTY Return=&quot;false&quot;&gt;US&lt;/CNTY&gt;
+        &lt;Phone Return=&quot;false&quot;&gt;555-1234&lt;/Phone&gt;
+        &lt;Postal Return=&quot;false&quot;&gt;10018&lt;/Postal&gt;
+        &lt;Email Return=&quot;false&quot;&gt;Test@knila.com&lt;/Email&gt;
+    &lt;/Billing&gt;
+    &lt;Items&gt;
+        &lt;CI&gt;
+            &lt;Amount Edit=&quot;true&quot;&gt;1.00&lt;/Amount&gt;
+            &lt;BC&gt;6100000&lt;/BC&gt;
+            &lt;CFS&gt;
+                &lt;CF Edit=&quot;false&quot; Return=&quot;false&quot;&gt;
+                    &lt;CFN&gt;Order Number&lt;/CFN&gt;
+                    &lt;CFV&gt;123456789&lt;/CFV&gt;
+                    &lt;VP&gt;\d{9}&lt;/VP&gt;
+                &lt;/CF&gt;
+                &lt;CF Edit=&quot;false&quot; Return=&quot;false&quot;&gt;
+                    &lt;CFN&gt;Description&lt;/CFN&gt;
+                    &lt;CFV&gt;Speeding Ticket&lt;/CFV&gt;
+                    &lt;VP /&gt;
+                &lt;/CF&gt;
+            &lt;/CFS&gt;
+            &lt;FN&gt;Susmitha&lt;/FN&gt;
+            &lt;MN&gt;K.&lt;/MN&gt;
+            &lt;LN&gt;A&lt;/LN&gt;
+            &lt;Sufx /&gt;
+            &lt;AD1&gt;1320 Wall Street&lt;/AD1&gt;
+            &lt;AD2&gt;Apt. A&lt;/AD2&gt;
+            &lt;CTY&gt;New York&lt;/CTY&gt;
+            &lt;ST&gt;NY&lt;/ST&gt;
+            &lt;CNTY&gt;US&lt;/CNTY&gt;
+            &lt;Phone&gt;555-1234&lt;/Phone&gt;
+            &lt;Postal&gt;10018&lt;/Postal&gt;
+        &lt;/CI&gt;
+      
+    &lt;/Items&gt;
+&lt;/Transaction&gt;' is set on object 'Object Repository/CERTPAY_GENERICSTI/XML_Page/XML'
+
+2020-02-06 19:38:01 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Entered'&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;Transaction xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+    &lt;BT_ID&gt;123456789&lt;/BT_ID&gt;
+    &lt;Protocol&gt;
+        &lt;RTU&gt;https://certifiedpayments.net/&lt;/RTU&gt;
+        &lt;RLU&gt;https://certifiedpayments.net/&lt;/RLU&gt;
+    &lt;/Protocol&gt;
+    &lt;Billing&gt;
+        &lt;FN Return=&quot;false&quot;&gt;Susmitha&lt;/FN&gt;
+        &lt;MN Return=&quot;false&quot;&gt;K.&lt;/MN&gt;
+        &lt;LN Return=&quot;false&quot;&gt;A&lt;/LN&gt;
+        &lt;Sufx Return=&quot;false&quot; /&gt;
+        &lt;AD1 Return=&quot;false&quot;&gt;1320 Wall Street&lt;/AD1&gt;
+        &lt;AD2 Return=&quot;false&quot;&gt;Apt. A&lt;/AD2&gt;
+        &lt;CTY Return=&quot;false&quot;&gt;New York&lt;/CTY&gt;
+        &lt;ST Return=&quot;false&quot;&gt;NY&lt;/ST&gt;
+        &lt;CNTY Return=&quot;false&quot;&gt;US&lt;/CNTY&gt;
+        &lt;Phone Return=&quot;false&quot;&gt;555-1234&lt;/Phone&gt;
+        &lt;Postal Return=&quot;false&quot;&gt;10018&lt;/Postal&gt;
+        &lt;Email Return=&quot;false&quot;&gt;Test@knila.com&lt;/Email&gt;
+    &lt;/Billing&gt;
+    &lt;Items&gt;
+        &lt;CI&gt;
+            &lt;Amount Edit=&quot;true&quot;&gt;1.00&lt;/Amount&gt;
+            &lt;BC&gt;6100000&lt;/BC&gt;
+            &lt;CFS&gt;
+                &lt;CF Edit=&quot;false&quot; Return=&quot;false&quot;&gt;
+                    &lt;CFN&gt;Order Number&lt;/CFN&gt;
+                    &lt;CFV&gt;123456789&lt;/CFV&gt;
+                    &lt;VP&gt;\d{9}&lt;/VP&gt;
+                &lt;/CF&gt;
+                &lt;CF Edit=&quot;false&quot; Return=&quot;false&quot;&gt;
+                    &lt;CFN&gt;Description&lt;/CFN&gt;
+                    &lt;CFV&gt;Speeding Ticket&lt;/CFV&gt;
+                    &lt;VP /&gt;
+                &lt;/CF&gt;
+            &lt;/CFS&gt;
+            &lt;FN&gt;Susmitha&lt;/FN&gt;
+            &lt;MN&gt;K.&lt;/MN&gt;
+            &lt;LN&gt;A&lt;/LN&gt;
+            &lt;Sufx /&gt;
+            &lt;AD1&gt;1320 Wall Street&lt;/AD1&gt;
+            &lt;AD2&gt;Apt. A&lt;/AD2&gt;
+            &lt;CTY&gt;New York&lt;/CTY&gt;
+            &lt;ST&gt;NY&lt;/ST&gt;
+            &lt;CNTY&gt;US&lt;/CNTY&gt;
+            &lt;Phone&gt;555-1234&lt;/Phone&gt;
+            &lt;Postal&gt;10018&lt;/Postal&gt;
+        &lt;/CI&gt;
+      
+    &lt;/Items&gt;
+&lt;/Transaction&gt; into XMLContent
+
+2020-02-06 19:38:01 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/XML_Page/SUBMIT"), "Submit XML", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Submit XML
+
+2020-02-06 19:38:01 - [MESSAGE][INFO] - safeClicking
+
+2020-02-06 19:38:01 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/XML_Page/SUBMIT' is present
+
+2020-02-06 19:38:01 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/XML_Page/SUBMIT' is clickable
+
+2020-02-06 19:38:07 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/XML_Page/SUBMIT' is clicked on
+
+2020-02-06 19:38:07 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Submit XML
+
+2020-02-06 19:38:07 - [TEST_STEP][PASSED] - if (cardType == "Visa"): GenericSTI_DifferentCardType.ts:Clicked on the VISA Card
+
+2020-02-06 19:38:07 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Payment_Information_Page/VISA"), "VISA Card", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the VISA Card
+
+2020-02-06 19:38:07 - [MESSAGE][INFO] - safeClicking
+
+2020-02-06 19:38:08 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/VISA' is present
+
+2020-02-06 19:38:08 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/VISA' is clickable
+
+2020-02-06 19:38:13 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/VISA' is clicked on
+
+2020-02-06 19:38:13 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the VISA Card
+
+2020-02-06 19:38:13 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_GENERICSTI/Payment_Information_Page/COMMENTS"), "Testing", "Comments", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Entered'Testing into Comments
+
+2020-02-06 19:38:13 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/COMMENTS' is present
+
+2020-02-06 19:38:13 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/COMMENTS' is visible
+
+2020-02-06 19:38:14 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/COMMENTS' is present
+
+2020-02-06 19:38:15 - [MESSAGE][PASSED] - Text 'Testing' is set on object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/COMMENTS'
+
+2020-02-06 19:38:15 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Entered'Testing into Comments
+
+2020-02-06 19:38:15 - [TEST_STEP][PASSED] - if (cardType == "Echeck"): null
+
+2020-02-06 19:38:15 - [TEST_STEP][PASSED] - else: GenericSTI_DifferentCardType.ts:Clicked on the Next
+
+2020-02-06 19:38:15 - [TEST_STEP][PASSED] - CardNumber = pages.Genericsti.setUserPaymentDetails(cardNum): GenericSTI_DifferentCardType.ts:Entered'4111111111111111 into CardNum
+
+2020-02-06 19:38:15 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/CARD_NUMBER' is present
+
+2020-02-06 19:38:16 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/CARD_NUMBER' is visible
+
+2020-02-06 19:38:16 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/CARD_NUMBER' is present
+
+2020-02-06 19:38:18 - [MESSAGE][PASSED] - Text '4111111111111111' is set on object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/CARD_NUMBER'
+
+2020-02-06 19:38:18 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Entered'4111111111111111 into CardNum
+
+2020-02-06 19:38:18 - [TEST_STEP][PASSED] - pages.Genericsti.setExpDate(expMonth, expYear, securityCode): GenericSTI_DifferentCardType.ts:Entered'207 into securityCode
+
+2020-02-06 19:38:18 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_MONTH' is visible
+
+2020-02-06 19:38:18 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_MONTH' is present
+
+2020-02-06 19:38:20 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_MONTH' is clicked on
+
+2020-02-06 19:38:21 - [MESSAGE][PASSED] - All options with label '3' are selected in object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_MONTH'  using regular expression
+
+2020-02-06 19:38:21 - [MESSAGE][PASSED] - selected dropdown option by visible text  3from expMonth
+
+2020-02-06 19:38:21 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_YEAR' is visible
+
+2020-02-06 19:38:22 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_YEAR' is present
+
+2020-02-06 19:38:23 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_YEAR' is clicked on
+
+2020-02-06 19:38:24 - [MESSAGE][PASSED] - All options with label '2022' are selected in object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_YEAR'  using regular expression
+
+2020-02-06 19:38:24 - [MESSAGE][PASSED] - selected dropdown option by visible text  2022from  expYear
+
+2020-02-06 19:38:25 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/SECURITY_CODE' is present
+
+2020-02-06 19:38:25 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/SECURITY_CODE' is visible
+
+2020-02-06 19:38:25 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/SECURITY_CODE' is present
+
+2020-02-06 19:38:27 - [MESSAGE][PASSED] - Text '207' is set on object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/SECURITY_CODE'
+
+2020-02-06 19:38:27 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Entered'207 into securityCode
+
+2020-02-06 19:38:27 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Payment_Information_Page/NEXT"), "Next", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Next
+
+2020-02-06 19:38:27 - [MESSAGE][INFO] - safeClicking
+
+2020-02-06 19:38:27 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/NEXT' is present
+
+2020-02-06 19:38:27 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/NEXT' is clickable
+
+2020-02-06 19:38:31 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/NEXT' is clicked on
+
+2020-02-06 19:38:31 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Next
+
+2020-02-06 19:38:31 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Review_Payment_Page/PROCESS_PAYMENT"), "Process payment", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Process payment
+
+2020-02-06 19:38:31 - [MESSAGE][INFO] - safeClicking
+
+2020-02-06 19:38:32 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Review_Payment_Page/PROCESS_PAYMENT' is present
+
+2020-02-06 19:38:32 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Review_Payment_Page/PROCESS_PAYMENT' is clickable
+
+2020-02-06 19:38:34 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Review_Payment_Page/PROCESS_PAYMENT' is clicked on
+
+2020-02-06 19:38:34 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Process payment
+
+2020-02-06 19:38:34 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Confirm_Payment_Page/CONFIRM_YES"), "Confirm Yes", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Confirm Yes
+
+2020-02-06 19:38:34 - [MESSAGE][INFO] - safeClicking
+
+2020-02-06 19:38:34 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Confirm_Payment_Page/CONFIRM_YES' is present
+
+2020-02-06 19:38:35 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Confirm_Payment_Page/CONFIRM_YES' is clickable
+
+2020-02-06 19:38:40 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Confirm_Payment_Page/CONFIRM_YES' is clicked on
+
+2020-02-06 19:38:40 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Confirm Yes
+
+2020-02-06 19:38:40 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Payment_Details_Verification_Page/NEXT"), "Next", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Next
+
+2020-02-06 19:38:40 - [MESSAGE][INFO] - safeClicking
+
+2020-02-06 19:38:41 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Details_Verification_Page/NEXT' is present
+
+2020-02-06 19:38:42 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Details_Verification_Page/NEXT' is clickable
+
+2020-02-06 19:38:47 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Payment_Details_Verification_Page/NEXT' is clicked on
+
+2020-02-06 19:38:47 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Next
+
+2020-02-06 19:38:47 - [TEST_STEP][PASSED] - FirstName = data.getValue("FirstName", index): null
+
+2020-02-06 19:38:47 - [TEST_STEP][PASSED] - LastName = data.getValue("LastName", index): null
+
+2020-02-06 19:38:47 - [TEST_STEP][PASSED] - Amount = data.getValue("Amount", index): null
+
+2020-02-06 19:38:47 - [TEST_STEP][PASSED] - cardNum = data.getValue("CardNumber", index): null
+
+2020-02-06 19:38:47 - [TEST_STEP][PASSED] - expMonth = data.getValue("ExpMonth", index): null
+
+2020-02-06 19:38:47 - [TEST_STEP][PASSED] - expYear = data.getValue("ExpYear", index): null
+
+2020-02-06 19:38:47 - [TEST_STEP][PASSED] - securityCode = data.getValue("SecurityCode", index): null
+
+2020-02-06 19:38:47 - [TEST_STEP][PASSED] - cardType = data.getValue("CardType", index): null
+
+2020-02-06 19:38:47 - [TEST_STEP][PASSED] - Comments = data.getValue("Comments", index): null
+
+2020-02-06 19:38:47 - [TEST_STEP][PASSED] - Address = data.getValue("Address", index): null
+
+2020-02-06 19:38:47 - [TEST_STEP][PASSED] - Telephone = data.getValue("Telephone", index): null
+
+2020-02-06 19:38:47 - [TEST_STEP][PASSED] - Email = data.getValue("EmailAddress", index): null
+
+2020-02-06 19:38:47 - [TEST_STEP][PASSED] - AccountType = data.getValue("AccountType", index): null
+
+2020-02-06 19:38:47 - [TEST_STEP][PASSED] - RoutingNumber = data.getValue("RoutingNumber", index): null
+
+2020-02-06 19:38:47 - [TEST_STEP][PASSED] - AccountNumber = data.getValue("AccountNumber", index): null
+
+2020-02-06 19:38:47 - [TEST_STEP][PASSED] - ConfirmAccountNumber = data.getValue("ConfirmAccountNumber", index): null
+
+2020-02-06 19:38:47 - [TEST_STEP][PASSED] - Signature = data.getValue("Signature", index): null
+
+2020-02-06 19:38:47 - [TEST_STEP][PASSED] - Agreement = data.getValue("Agreement", index): null
+
+2020-02-06 19:38:47 - [TEST_STEP][PASSED] - utilities.SafeActions.openBrowser(Genericsti_url, [pageLoadTime]): Browser launched successfully
+
+2020-02-06 19:38:47 - [MESSAGE][INFO] - Opening Browser
+
+2020-02-06 19:38:47 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-02-06 19:38:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-02-06 19:38:53 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa-certpaygenericsti.faps.net/genericsti/demo/'
+
+2020-02-06 19:38:55 - [MESSAGE][PASSED] - Current window maximized
+
+2020-02-06 19:38:55 - [MESSAGE][PASSED] - Browser launched successfully
+
+2020-02-06 19:38:55 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Demo_Pages/BEGIN_PAYMENT"), "Begin Payment", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Begin Payment
+
+2020-02-06 19:38:55 - [MESSAGE][INFO] - safeClicking
+
+2020-02-06 19:38:55 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Demo_Pages/BEGIN_PAYMENT' is present
+
+2020-02-06 19:38:55 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Demo_Pages/BEGIN_PAYMENT' is clickable
+
+2020-02-06 19:38:58 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Demo_Pages/BEGIN_PAYMENT' is clicked on
+
+2020-02-06 19:38:58 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Begin Payment
+
+2020-02-06 19:38:58 - [TEST_STEP][PASSED] - XMLString = utilities.SafeActions.CreateXML(FirstName, LastName, Amount, Address, Email, Telephone): utilities.SafeActions.CreateXML is PASSED
+
+2020-02-06 19:38:58 - [MESSAGE][INFO] - Create XML
+
+2020-02-06 19:38:58 - [MESSAGE][PASSED] - utilities.SafeActions.CreateXML is PASSED
+
+2020-02-06 19:38:58 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_GENERICSTI/XML_Page/XML"), XMLString, "XMLContent", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Entered'&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;Transaction xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+    &lt;BT_ID&gt;123456789&lt;/BT_ID&gt;
+    &lt;Protocol&gt;
+        &lt;RTU&gt;https://certifiedpayments.net/&lt;/RTU&gt;
+        &lt;RLU&gt;https://certifiedpayments.net/&lt;/RLU&gt;
+    &lt;/Protocol&gt;
+    &lt;Billing&gt;
+        &lt;FN Return=&quot;false&quot;&gt;Valarmathi&lt;/FN&gt;
+        &lt;MN Return=&quot;false&quot;&gt;K.&lt;/MN&gt;
+        &lt;LN Return=&quot;false&quot;&gt;V&lt;/LN&gt;
+        &lt;Sufx Return=&quot;false&quot; /&gt;
+        &lt;AD1 Return=&quot;false&quot;&gt;1231 Bourbon Street&lt;/AD1&gt;
+        &lt;AD2 Return=&quot;false&quot;&gt;Apt. A&lt;/AD2&gt;
+        &lt;CTY Return=&quot;false&quot;&gt;New York&lt;/CTY&gt;
+        &lt;ST Return=&quot;false&quot;&gt;NY&lt;/ST&gt;
+        &lt;CNTY Return=&quot;false&quot;&gt;US&lt;/CNTY&gt;
+        &lt;Phone Return=&quot;false&quot;&gt;555-1234&lt;/Phone&gt;
+        &lt;Postal Return=&quot;false&quot;&gt;10018&lt;/Postal&gt;
+        &lt;Email Return=&quot;false&quot;&gt;Test@knila.com&lt;/Email&gt;
+    &lt;/Billing&gt;
+    &lt;Items&gt;
+        &lt;CI&gt;
+            &lt;Amount Edit=&quot;true&quot;&gt;2.00&lt;/Amount&gt;
+            &lt;BC&gt;6100000&lt;/BC&gt;
+            &lt;CFS&gt;
+                &lt;CF Edit=&quot;false&quot; Return=&quot;false&quot;&gt;
+                    &lt;CFN&gt;Order Number&lt;/CFN&gt;
+                    &lt;CFV&gt;123456789&lt;/CFV&gt;
+                    &lt;VP&gt;\d{9}&lt;/VP&gt;
+                &lt;/CF&gt;
+                &lt;CF Edit=&quot;false&quot; Return=&quot;false&quot;&gt;
+                    &lt;CFN&gt;Description&lt;/CFN&gt;
+                    &lt;CFV&gt;Speeding Ticket&lt;/CFV&gt;
+                    &lt;VP /&gt;
+                &lt;/CF&gt;
+            &lt;/CFS&gt;
+            &lt;FN&gt;Valarmathi&lt;/FN&gt;
+            &lt;MN&gt;K.&lt;/MN&gt;
+            &lt;LN&gt;V&lt;/LN&gt;
+            &lt;Sufx /&gt;
+            &lt;AD1&gt;1231 Bourbon Street&lt;/AD1&gt;
+            &lt;AD2&gt;Apt. A&lt;/AD2&gt;
+            &lt;CTY&gt;New York&lt;/CTY&gt;
+            &lt;ST&gt;NY&lt;/ST&gt;
+            &lt;CNTY&gt;US&lt;/CNTY&gt;
+            &lt;Phone&gt;555-1234&lt;/Phone&gt;
+            &lt;Postal&gt;10018&lt;/Postal&gt;
+        &lt;/CI&gt;
+      
+    &lt;/Items&gt;
+&lt;/Transaction&gt; into XMLContent
+
+2020-02-06 19:38:58 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/XML_Page/XML' is present
+
+2020-02-06 19:38:58 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/XML_Page/XML' is visible
+
+2020-02-06 19:38:59 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/XML_Page/XML' is present
+
+2020-02-06 19:39:08 - [MESSAGE][PASSED] - Text '&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;Transaction xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+    &lt;BT_ID&gt;123456789&lt;/BT_ID&gt;
+    &lt;Protocol&gt;
+        &lt;RTU&gt;https://certifiedpayments.net/&lt;/RTU&gt;
+        &lt;RLU&gt;https://certifiedpayments.net/&lt;/RLU&gt;
+    &lt;/Protocol&gt;
+    &lt;Billing&gt;
+        &lt;FN Return=&quot;false&quot;&gt;Valarmathi&lt;/FN&gt;
+        &lt;MN Return=&quot;false&quot;&gt;K.&lt;/MN&gt;
+        &lt;LN Return=&quot;false&quot;&gt;V&lt;/LN&gt;
+        &lt;Sufx Return=&quot;false&quot; /&gt;
+        &lt;AD1 Return=&quot;false&quot;&gt;1231 Bourbon Street&lt;/AD1&gt;
+        &lt;AD2 Return=&quot;false&quot;&gt;Apt. A&lt;/AD2&gt;
+        &lt;CTY Return=&quot;false&quot;&gt;New York&lt;/CTY&gt;
+        &lt;ST Return=&quot;false&quot;&gt;NY&lt;/ST&gt;
+        &lt;CNTY Return=&quot;false&quot;&gt;US&lt;/CNTY&gt;
+        &lt;Phone Return=&quot;false&quot;&gt;555-1234&lt;/Phone&gt;
+        &lt;Postal Return=&quot;false&quot;&gt;10018&lt;/Postal&gt;
+        &lt;Email Return=&quot;false&quot;&gt;Test@knila.com&lt;/Email&gt;
+    &lt;/Billing&gt;
+    &lt;Items&gt;
+        &lt;CI&gt;
+            &lt;Amount Edit=&quot;true&quot;&gt;2.00&lt;/Amount&gt;
+            &lt;BC&gt;6100000&lt;/BC&gt;
+            &lt;CFS&gt;
+                &lt;CF Edit=&quot;false&quot; Return=&quot;false&quot;&gt;
+                    &lt;CFN&gt;Order Number&lt;/CFN&gt;
+                    &lt;CFV&gt;123456789&lt;/CFV&gt;
+                    &lt;VP&gt;\d{9}&lt;/VP&gt;
+                &lt;/CF&gt;
+                &lt;CF Edit=&quot;false&quot; Return=&quot;false&quot;&gt;
+                    &lt;CFN&gt;Description&lt;/CFN&gt;
+                    &lt;CFV&gt;Speeding Ticket&lt;/CFV&gt;
+                    &lt;VP /&gt;
+                &lt;/CF&gt;
+            &lt;/CFS&gt;
+            &lt;FN&gt;Valarmathi&lt;/FN&gt;
+            &lt;MN&gt;K.&lt;/MN&gt;
+            &lt;LN&gt;V&lt;/LN&gt;
+            &lt;Sufx /&gt;
+            &lt;AD1&gt;1231 Bourbon Street&lt;/AD1&gt;
+            &lt;AD2&gt;Apt. A&lt;/AD2&gt;
+            &lt;CTY&gt;New York&lt;/CTY&gt;
+            &lt;ST&gt;NY&lt;/ST&gt;
+            &lt;CNTY&gt;US&lt;/CNTY&gt;
+            &lt;Phone&gt;555-1234&lt;/Phone&gt;
+            &lt;Postal&gt;10018&lt;/Postal&gt;
+        &lt;/CI&gt;
+      
+    &lt;/Items&gt;
+&lt;/Transaction&gt;' is set on object 'Object Repository/CERTPAY_GENERICSTI/XML_Page/XML'
+
+2020-02-06 19:39:08 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Entered'&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;Transaction xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+    &lt;BT_ID&gt;123456789&lt;/BT_ID&gt;
+    &lt;Protocol&gt;
+        &lt;RTU&gt;https://certifiedpayments.net/&lt;/RTU&gt;
+        &lt;RLU&gt;https://certifiedpayments.net/&lt;/RLU&gt;
+    &lt;/Protocol&gt;
+    &lt;Billing&gt;
+        &lt;FN Return=&quot;false&quot;&gt;Valarmathi&lt;/FN&gt;
+        &lt;MN Return=&quot;false&quot;&gt;K.&lt;/MN&gt;
+        &lt;LN Return=&quot;false&quot;&gt;V&lt;/LN&gt;
+        &lt;Sufx Return=&quot;false&quot; /&gt;
+        &lt;AD1 Return=&quot;false&quot;&gt;1231 Bourbon Street&lt;/AD1&gt;
+        &lt;AD2 Return=&quot;false&quot;&gt;Apt. A&lt;/AD2&gt;
+        &lt;CTY Return=&quot;false&quot;&gt;New York&lt;/CTY&gt;
+        &lt;ST Return=&quot;false&quot;&gt;NY&lt;/ST&gt;
+        &lt;CNTY Return=&quot;false&quot;&gt;US&lt;/CNTY&gt;
+        &lt;Phone Return=&quot;false&quot;&gt;555-1234&lt;/Phone&gt;
+        &lt;Postal Return=&quot;false&quot;&gt;10018&lt;/Postal&gt;
+        &lt;Email Return=&quot;false&quot;&gt;Test@knila.com&lt;/Email&gt;
+    &lt;/Billing&gt;
+    &lt;Items&gt;
+        &lt;CI&gt;
+            &lt;Amount Edit=&quot;true&quot;&gt;2.00&lt;/Amount&gt;
+            &lt;BC&gt;6100000&lt;/BC&gt;
+            &lt;CFS&gt;
+                &lt;CF Edit=&quot;false&quot; Return=&quot;false&quot;&gt;
+                    &lt;CFN&gt;Order Number&lt;/CFN&gt;
+                    &lt;CFV&gt;123456789&lt;/CFV&gt;
+                    &lt;VP&gt;\d{9}&lt;/VP&gt;
+                &lt;/CF&gt;
+                &lt;CF Edit=&quot;false&quot; Return=&quot;false&quot;&gt;
+                    &lt;CFN&gt;Description&lt;/CFN&gt;
+                    &lt;CFV&gt;Speeding Ticket&lt;/CFV&gt;
+                    &lt;VP /&gt;
+                &lt;/CF&gt;
+            &lt;/CFS&gt;
+            &lt;FN&gt;Valarmathi&lt;/FN&gt;
+            &lt;MN&gt;K.&lt;/MN&gt;
+            &lt;LN&gt;V&lt;/LN&gt;
+            &lt;Sufx /&gt;
+            &lt;AD1&gt;1231 Bourbon Street&lt;/AD1&gt;
+            &lt;AD2&gt;Apt. A&lt;/AD2&gt;
+            &lt;CTY&gt;New York&lt;/CTY&gt;
+            &lt;ST&gt;NY&lt;/ST&gt;
+            &lt;CNTY&gt;US&lt;/CNTY&gt;
+            &lt;Phone&gt;555-1234&lt;/Phone&gt;
+            &lt;Postal&gt;10018&lt;/Postal&gt;
+        &lt;/CI&gt;
+      
+    &lt;/Items&gt;
+&lt;/Transaction&gt; into XMLContent
+
+2020-02-06 19:39:08 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/XML_Page/SUBMIT"), "Submit XML", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Submit XML
+
+2020-02-06 19:39:08 - [MESSAGE][INFO] - safeClicking
+
+2020-02-06 19:39:08 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/XML_Page/SUBMIT' is present
+
+2020-02-06 19:39:08 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/XML_Page/SUBMIT' is clickable
+
+2020-02-06 19:39:13 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/XML_Page/SUBMIT' is clicked on
+
+2020-02-06 19:39:13 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Submit XML
+
+2020-02-06 19:39:13 - [TEST_STEP][PASSED] - if (cardType == "Visa"): null
+
+2020-02-06 19:39:13 - [TEST_STEP][PASSED] - else if (cardType == "MasterCard"): GenericSTI_DifferentCardType.ts:Clicked on the Master Card
+
+2020-02-06 19:39:13 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Payment_Information_Page/MASTER_CARD"), "Master Card", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Master Card
+
+2020-02-06 19:39:14 - [MESSAGE][INFO] - safeClicking
+
+2020-02-06 19:39:15 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/MASTER_CARD' is present
+
+2020-02-06 19:39:15 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/MASTER_CARD' is clickable
+
+2020-02-06 19:39:21 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/MASTER_CARD' is clicked on
+
+2020-02-06 19:39:21 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Master Card
+
+2020-02-06 19:39:21 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_GENERICSTI/Payment_Information_Page/COMMENTS"), "Testing", "Comments", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Entered'Testing into Comments
+
+2020-02-06 19:39:21 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/COMMENTS' is present
+
+2020-02-06 19:39:21 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/COMMENTS' is visible
+
+2020-02-06 19:39:22 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/COMMENTS' is present
+
+2020-02-06 19:39:23 - [MESSAGE][PASSED] - Text 'Testing' is set on object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/COMMENTS'
+
+2020-02-06 19:39:23 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Entered'Testing into Comments
+
+2020-02-06 19:39:23 - [TEST_STEP][PASSED] - if (cardType == "Echeck"): null
+
+2020-02-06 19:39:23 - [TEST_STEP][PASSED] - else: GenericSTI_DifferentCardType.ts:Clicked on the Next
+
+2020-02-06 19:39:23 - [TEST_STEP][PASSED] - CardNumber = pages.Genericsti.setUserPaymentDetails(cardNum): GenericSTI_DifferentCardType.ts:Entered'5105105105105100 into CardNum
+
+2020-02-06 19:39:23 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/CARD_NUMBER' is present
+
+2020-02-06 19:39:24 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/CARD_NUMBER' is visible
+
+2020-02-06 19:39:24 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/CARD_NUMBER' is present
+
+2020-02-06 19:39:25 - [MESSAGE][PASSED] - Text '5105105105105100' is set on object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/CARD_NUMBER'
+
+2020-02-06 19:39:25 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Entered'5105105105105100 into CardNum
+
+2020-02-06 19:39:25 - [TEST_STEP][PASSED] - pages.Genericsti.setExpDate(expMonth, expYear, securityCode): GenericSTI_DifferentCardType.ts:Entered'201 into securityCode
+
+2020-02-06 19:39:26 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_MONTH' is visible
+
+2020-02-06 19:39:26 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_MONTH' is present
+
+2020-02-06 19:39:27 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_MONTH' is clicked on
+
+2020-02-06 19:39:29 - [MESSAGE][PASSED] - All options with label '2' are selected in object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_MONTH'  using regular expression
+
+2020-02-06 19:39:29 - [MESSAGE][PASSED] - selected dropdown option by visible text  2from expMonth
+
+2020-02-06 19:39:29 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_YEAR' is visible
+
+2020-02-06 19:39:29 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_YEAR' is present
+
+2020-02-06 19:39:31 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_YEAR' is clicked on
+
+2020-02-06 19:39:32 - [MESSAGE][PASSED] - All options with label '2023' are selected in object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_YEAR'  using regular expression
+
+2020-02-06 19:39:32 - [MESSAGE][PASSED] - selected dropdown option by visible text  2023from  expYear
+
+2020-02-06 19:39:32 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/SECURITY_CODE' is present
+
+2020-02-06 19:39:33 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/SECURITY_CODE' is visible
+
+2020-02-06 19:39:33 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/SECURITY_CODE' is present
+
+2020-02-06 19:39:34 - [MESSAGE][PASSED] - Text '201' is set on object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/SECURITY_CODE'
+
+2020-02-06 19:39:34 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Entered'201 into securityCode
+
+2020-02-06 19:39:34 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Payment_Information_Page/NEXT"), "Next", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Next
+
+2020-02-06 19:39:34 - [MESSAGE][INFO] - safeClicking
+
+2020-02-06 19:39:35 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/NEXT' is present
+
+2020-02-06 19:39:35 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/NEXT' is clickable
+
+2020-02-06 19:39:38 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/NEXT' is clicked on
+
+2020-02-06 19:39:38 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Next
+
+2020-02-06 19:39:38 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Review_Payment_Page/PROCESS_PAYMENT"), "Process payment", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Process payment
+
+2020-02-06 19:39:38 - [MESSAGE][INFO] - safeClicking
+
+2020-02-06 19:39:40 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Review_Payment_Page/PROCESS_PAYMENT' is present
+
+2020-02-06 19:39:40 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Review_Payment_Page/PROCESS_PAYMENT' is clickable
+
+2020-02-06 19:39:41 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Review_Payment_Page/PROCESS_PAYMENT' is clicked on
+
+2020-02-06 19:39:41 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Process payment
+
+2020-02-06 19:39:41 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Confirm_Payment_Page/CONFIRM_YES"), "Confirm Yes", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Confirm Yes
+
+2020-02-06 19:39:41 - [MESSAGE][INFO] - safeClicking
+
+2020-02-06 19:39:42 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Confirm_Payment_Page/CONFIRM_YES' is present
+
+2020-02-06 19:39:42 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Confirm_Payment_Page/CONFIRM_YES' is clickable
+
+2020-02-06 19:39:48 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Confirm_Payment_Page/CONFIRM_YES' is clicked on
+
+2020-02-06 19:39:48 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Confirm Yes
+
+2020-02-06 19:39:48 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Payment_Details_Verification_Page/NEXT"), "Next", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Next
+
+2020-02-06 19:39:48 - [MESSAGE][INFO] - safeClicking
+
+2020-02-06 19:39:49 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Details_Verification_Page/NEXT' is present
+
+2020-02-06 19:39:49 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Details_Verification_Page/NEXT' is clickable
+
+2020-02-06 19:39:54 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Payment_Details_Verification_Page/NEXT' is clicked on
+
+2020-02-06 19:39:54 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Next
+
+2020-02-06 19:39:54 - [TEST_STEP][PASSED] - FirstName = data.getValue("FirstName", index): null
+
+2020-02-06 19:39:54 - [TEST_STEP][PASSED] - LastName = data.getValue("LastName", index): null
+
+2020-02-06 19:39:54 - [TEST_STEP][PASSED] - Amount = data.getValue("Amount", index): null
+
+2020-02-06 19:39:54 - [TEST_STEP][PASSED] - cardNum = data.getValue("CardNumber", index): null
+
+2020-02-06 19:39:54 - [TEST_STEP][PASSED] - expMonth = data.getValue("ExpMonth", index): null
+
+2020-02-06 19:39:54 - [TEST_STEP][PASSED] - expYear = data.getValue("ExpYear", index): null
+
+2020-02-06 19:39:54 - [TEST_STEP][PASSED] - securityCode = data.getValue("SecurityCode", index): null
+
+2020-02-06 19:39:54 - [TEST_STEP][PASSED] - cardType = data.getValue("CardType", index): null
+
+2020-02-06 19:39:54 - [TEST_STEP][PASSED] - Comments = data.getValue("Comments", index): null
+
+2020-02-06 19:39:54 - [TEST_STEP][PASSED] - Address = data.getValue("Address", index): null
+
+2020-02-06 19:39:54 - [TEST_STEP][PASSED] - Telephone = data.getValue("Telephone", index): null
+
+2020-02-06 19:39:54 - [TEST_STEP][PASSED] - Email = data.getValue("EmailAddress", index): null
+
+2020-02-06 19:39:54 - [TEST_STEP][PASSED] - AccountType = data.getValue("AccountType", index): null
+
+2020-02-06 19:39:54 - [TEST_STEP][PASSED] - RoutingNumber = data.getValue("RoutingNumber", index): null
+
+2020-02-06 19:39:54 - [TEST_STEP][PASSED] - AccountNumber = data.getValue("AccountNumber", index): null
+
+2020-02-06 19:39:54 - [TEST_STEP][PASSED] - ConfirmAccountNumber = data.getValue("ConfirmAccountNumber", index): null
+
+2020-02-06 19:39:54 - [TEST_STEP][PASSED] - Signature = data.getValue("Signature", index): null
+
+2020-02-06 19:39:54 - [TEST_STEP][PASSED] - Agreement = data.getValue("Agreement", index): null
+
+2020-02-06 19:39:54 - [TEST_STEP][PASSED] - utilities.SafeActions.openBrowser(Genericsti_url, [pageLoadTime]): Browser launched successfully
+
+2020-02-06 19:39:54 - [MESSAGE][INFO] - Opening Browser
+
+2020-02-06 19:39:54 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-02-06 19:39:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-02-06 19:40:00 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa-certpaygenericsti.faps.net/genericsti/demo/'
+
+2020-02-06 19:40:02 - [MESSAGE][PASSED] - Current window maximized
+
+2020-02-06 19:40:02 - [MESSAGE][PASSED] - Browser launched successfully
+
+2020-02-06 19:40:02 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Demo_Pages/BEGIN_PAYMENT"), "Begin Payment", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Begin Payment
+
+2020-02-06 19:40:02 - [MESSAGE][INFO] - safeClicking
+
+2020-02-06 19:40:02 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Demo_Pages/BEGIN_PAYMENT' is present
+
+2020-02-06 19:40:02 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Demo_Pages/BEGIN_PAYMENT' is clickable
+
+2020-02-06 19:40:05 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Demo_Pages/BEGIN_PAYMENT' is clicked on
+
+2020-02-06 19:40:05 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Begin Payment
+
+2020-02-06 19:40:05 - [TEST_STEP][PASSED] - XMLString = utilities.SafeActions.CreateXML(FirstName, LastName, Amount, Address, Email, Telephone): utilities.SafeActions.CreateXML is PASSED
+
+2020-02-06 19:40:05 - [MESSAGE][INFO] - Create XML
+
+2020-02-06 19:40:05 - [MESSAGE][PASSED] - utilities.SafeActions.CreateXML is PASSED
+
+2020-02-06 19:40:05 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_GENERICSTI/XML_Page/XML"), XMLString, "XMLContent", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Entered'&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;Transaction xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+    &lt;BT_ID&gt;123456789&lt;/BT_ID&gt;
+    &lt;Protocol&gt;
+        &lt;RTU&gt;https://certifiedpayments.net/&lt;/RTU&gt;
+        &lt;RLU&gt;https://certifiedpayments.net/&lt;/RLU&gt;
+    &lt;/Protocol&gt;
+    &lt;Billing&gt;
+        &lt;FN Return=&quot;false&quot;&gt;Divya&lt;/FN&gt;
+        &lt;MN Return=&quot;false&quot;&gt;K.&lt;/MN&gt;
+        &lt;LN Return=&quot;false&quot;&gt;M&lt;/LN&gt;
+        &lt;Sufx Return=&quot;false&quot; /&gt;
+        &lt;AD1 Return=&quot;false&quot;&gt;1504 Las Vegas&lt;/AD1&gt;
+        &lt;AD2 Return=&quot;false&quot;&gt;Apt. A&lt;/AD2&gt;
+        &lt;CTY Return=&quot;false&quot;&gt;New York&lt;/CTY&gt;
+        &lt;ST Return=&quot;false&quot;&gt;NY&lt;/ST&gt;
+        &lt;CNTY Return=&quot;false&quot;&gt;US&lt;/CNTY&gt;
+        &lt;Phone Return=&quot;false&quot;&gt;555-1234&lt;/Phone&gt;
+        &lt;Postal Return=&quot;false&quot;&gt;10018&lt;/Postal&gt;
+        &lt;Email Return=&quot;false&quot;&gt;Test@knila.com&lt;/Email&gt;
+    &lt;/Billing&gt;
+    &lt;Items&gt;
+        &lt;CI&gt;
+            &lt;Amount Edit=&quot;true&quot;&gt;3.00&lt;/Amount&gt;
+            &lt;BC&gt;6100000&lt;/BC&gt;
+            &lt;CFS&gt;
+                &lt;CF Edit=&quot;false&quot; Return=&quot;false&quot;&gt;
+                    &lt;CFN&gt;Order Number&lt;/CFN&gt;
+                    &lt;CFV&gt;123456789&lt;/CFV&gt;
+                    &lt;VP&gt;\d{9}&lt;/VP&gt;
+                &lt;/CF&gt;
+                &lt;CF Edit=&quot;false&quot; Return=&quot;false&quot;&gt;
+                    &lt;CFN&gt;Description&lt;/CFN&gt;
+                    &lt;CFV&gt;Speeding Ticket&lt;/CFV&gt;
+                    &lt;VP /&gt;
+                &lt;/CF&gt;
+            &lt;/CFS&gt;
+            &lt;FN&gt;Divya&lt;/FN&gt;
+            &lt;MN&gt;K.&lt;/MN&gt;
+            &lt;LN&gt;M&lt;/LN&gt;
+            &lt;Sufx /&gt;
+            &lt;AD1&gt;1504 Las Vegas&lt;/AD1&gt;
+            &lt;AD2&gt;Apt. A&lt;/AD2&gt;
+            &lt;CTY&gt;New York&lt;/CTY&gt;
+            &lt;ST&gt;NY&lt;/ST&gt;
+            &lt;CNTY&gt;US&lt;/CNTY&gt;
+            &lt;Phone&gt;555-1234&lt;/Phone&gt;
+            &lt;Postal&gt;10018&lt;/Postal&gt;
+        &lt;/CI&gt;
+      
+    &lt;/Items&gt;
+&lt;/Transaction&gt; into XMLContent
+
+2020-02-06 19:40:05 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/XML_Page/XML' is present
+
+2020-02-06 19:40:06 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/XML_Page/XML' is visible
+
+2020-02-06 19:40:06 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/XML_Page/XML' is present
+
+2020-02-06 19:40:16 - [MESSAGE][PASSED] - Text '&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;Transaction xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+    &lt;BT_ID&gt;123456789&lt;/BT_ID&gt;
+    &lt;Protocol&gt;
+        &lt;RTU&gt;https://certifiedpayments.net/&lt;/RTU&gt;
+        &lt;RLU&gt;https://certifiedpayments.net/&lt;/RLU&gt;
+    &lt;/Protocol&gt;
+    &lt;Billing&gt;
+        &lt;FN Return=&quot;false&quot;&gt;Divya&lt;/FN&gt;
+        &lt;MN Return=&quot;false&quot;&gt;K.&lt;/MN&gt;
+        &lt;LN Return=&quot;false&quot;&gt;M&lt;/LN&gt;
+        &lt;Sufx Return=&quot;false&quot; /&gt;
+        &lt;AD1 Return=&quot;false&quot;&gt;1504 Las Vegas&lt;/AD1&gt;
+        &lt;AD2 Return=&quot;false&quot;&gt;Apt. A&lt;/AD2&gt;
+        &lt;CTY Return=&quot;false&quot;&gt;New York&lt;/CTY&gt;
+        &lt;ST Return=&quot;false&quot;&gt;NY&lt;/ST&gt;
+        &lt;CNTY Return=&quot;false&quot;&gt;US&lt;/CNTY&gt;
+        &lt;Phone Return=&quot;false&quot;&gt;555-1234&lt;/Phone&gt;
+        &lt;Postal Return=&quot;false&quot;&gt;10018&lt;/Postal&gt;
+        &lt;Email Return=&quot;false&quot;&gt;Test@knila.com&lt;/Email&gt;
+    &lt;/Billing&gt;
+    &lt;Items&gt;
+        &lt;CI&gt;
+            &lt;Amount Edit=&quot;true&quot;&gt;3.00&lt;/Amount&gt;
+            &lt;BC&gt;6100000&lt;/BC&gt;
+            &lt;CFS&gt;
+                &lt;CF Edit=&quot;false&quot; Return=&quot;false&quot;&gt;
+                    &lt;CFN&gt;Order Number&lt;/CFN&gt;
+                    &lt;CFV&gt;123456789&lt;/CFV&gt;
+                    &lt;VP&gt;\d{9}&lt;/VP&gt;
+                &lt;/CF&gt;
+                &lt;CF Edit=&quot;false&quot; Return=&quot;false&quot;&gt;
+                    &lt;CFN&gt;Description&lt;/CFN&gt;
+                    &lt;CFV&gt;Speeding Ticket&lt;/CFV&gt;
+                    &lt;VP /&gt;
+                &lt;/CF&gt;
+            &lt;/CFS&gt;
+            &lt;FN&gt;Divya&lt;/FN&gt;
+            &lt;MN&gt;K.&lt;/MN&gt;
+            &lt;LN&gt;M&lt;/LN&gt;
+            &lt;Sufx /&gt;
+            &lt;AD1&gt;1504 Las Vegas&lt;/AD1&gt;
+            &lt;AD2&gt;Apt. A&lt;/AD2&gt;
+            &lt;CTY&gt;New York&lt;/CTY&gt;
+            &lt;ST&gt;NY&lt;/ST&gt;
+            &lt;CNTY&gt;US&lt;/CNTY&gt;
+            &lt;Phone&gt;555-1234&lt;/Phone&gt;
+            &lt;Postal&gt;10018&lt;/Postal&gt;
+        &lt;/CI&gt;
+      
+    &lt;/Items&gt;
+&lt;/Transaction&gt;' is set on object 'Object Repository/CERTPAY_GENERICSTI/XML_Page/XML'
+
+2020-02-06 19:40:16 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Entered'&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;Transaction xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+    &lt;BT_ID&gt;123456789&lt;/BT_ID&gt;
+    &lt;Protocol&gt;
+        &lt;RTU&gt;https://certifiedpayments.net/&lt;/RTU&gt;
+        &lt;RLU&gt;https://certifiedpayments.net/&lt;/RLU&gt;
+    &lt;/Protocol&gt;
+    &lt;Billing&gt;
+        &lt;FN Return=&quot;false&quot;&gt;Divya&lt;/FN&gt;
+        &lt;MN Return=&quot;false&quot;&gt;K.&lt;/MN&gt;
+        &lt;LN Return=&quot;false&quot;&gt;M&lt;/LN&gt;
+        &lt;Sufx Return=&quot;false&quot; /&gt;
+        &lt;AD1 Return=&quot;false&quot;&gt;1504 Las Vegas&lt;/AD1&gt;
+        &lt;AD2 Return=&quot;false&quot;&gt;Apt. A&lt;/AD2&gt;
+        &lt;CTY Return=&quot;false&quot;&gt;New York&lt;/CTY&gt;
+        &lt;ST Return=&quot;false&quot;&gt;NY&lt;/ST&gt;
+        &lt;CNTY Return=&quot;false&quot;&gt;US&lt;/CNTY&gt;
+        &lt;Phone Return=&quot;false&quot;&gt;555-1234&lt;/Phone&gt;
+        &lt;Postal Return=&quot;false&quot;&gt;10018&lt;/Postal&gt;
+        &lt;Email Return=&quot;false&quot;&gt;Test@knila.com&lt;/Email&gt;
+    &lt;/Billing&gt;
+    &lt;Items&gt;
+        &lt;CI&gt;
+            &lt;Amount Edit=&quot;true&quot;&gt;3.00&lt;/Amount&gt;
+            &lt;BC&gt;6100000&lt;/BC&gt;
+            &lt;CFS&gt;
+                &lt;CF Edit=&quot;false&quot; Return=&quot;false&quot;&gt;
+                    &lt;CFN&gt;Order Number&lt;/CFN&gt;
+                    &lt;CFV&gt;123456789&lt;/CFV&gt;
+                    &lt;VP&gt;\d{9}&lt;/VP&gt;
+                &lt;/CF&gt;
+                &lt;CF Edit=&quot;false&quot; Return=&quot;false&quot;&gt;
+                    &lt;CFN&gt;Description&lt;/CFN&gt;
+                    &lt;CFV&gt;Speeding Ticket&lt;/CFV&gt;
+                    &lt;VP /&gt;
+                &lt;/CF&gt;
+            &lt;/CFS&gt;
+            &lt;FN&gt;Divya&lt;/FN&gt;
+            &lt;MN&gt;K.&lt;/MN&gt;
+            &lt;LN&gt;M&lt;/LN&gt;
+            &lt;Sufx /&gt;
+            &lt;AD1&gt;1504 Las Vegas&lt;/AD1&gt;
+            &lt;AD2&gt;Apt. A&lt;/AD2&gt;
+            &lt;CTY&gt;New York&lt;/CTY&gt;
+            &lt;ST&gt;NY&lt;/ST&gt;
+            &lt;CNTY&gt;US&lt;/CNTY&gt;
+            &lt;Phone&gt;555-1234&lt;/Phone&gt;
+            &lt;Postal&gt;10018&lt;/Postal&gt;
+        &lt;/CI&gt;
+      
+    &lt;/Items&gt;
+&lt;/Transaction&gt; into XMLContent
+
+2020-02-06 19:40:16 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/XML_Page/SUBMIT"), "Submit XML", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Submit XML
+
+2020-02-06 19:40:16 - [MESSAGE][INFO] - safeClicking
+
+2020-02-06 19:40:17 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/XML_Page/SUBMIT' is present
+
+2020-02-06 19:40:17 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/XML_Page/SUBMIT' is clickable
+
+2020-02-06 19:40:22 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/XML_Page/SUBMIT' is clicked on
+
+2020-02-06 19:40:22 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Submit XML
+
+2020-02-06 19:40:22 - [TEST_STEP][PASSED] - if (cardType == "Visa"): null
+
+2020-02-06 19:40:22 - [TEST_STEP][PASSED] - else if (cardType == "MasterCard"): null
+
+2020-02-06 19:40:22 - [TEST_STEP][PASSED] - else if (cardType == "AmericanExpress"): GenericSTI_DifferentCardType.ts:Clicked on the AmericanExpress
+
+2020-02-06 19:40:22 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Payment_Information_Page/AMERICAN_EXPRESS"), "AmericanExpress", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the AmericanExpress
+
+2020-02-06 19:40:22 - [MESSAGE][INFO] - safeClicking
+
+2020-02-06 19:40:23 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/AMERICAN_EXPRESS' is present
+
+2020-02-06 19:40:24 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/AMERICAN_EXPRESS' is clickable
+
+2020-02-06 19:40:27 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/AMERICAN_EXPRESS' is clicked on
+
+2020-02-06 19:40:27 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the AmericanExpress
+
+2020-02-06 19:40:27 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_GENERICSTI/Payment_Information_Page/COMMENTS"), "Testing", "Comments", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Entered'Testing into Comments
+
+2020-02-06 19:40:28 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/COMMENTS' is present
+
+2020-02-06 19:40:28 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/COMMENTS' is visible
+
+2020-02-06 19:40:28 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/COMMENTS' is present
+
+2020-02-06 19:40:30 - [MESSAGE][PASSED] - Text 'Testing' is set on object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/COMMENTS'
+
+2020-02-06 19:40:30 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Entered'Testing into Comments
+
+2020-02-06 19:40:30 - [TEST_STEP][PASSED] - if (cardType == "Echeck"): null
+
+2020-02-06 19:40:30 - [TEST_STEP][PASSED] - else: GenericSTI_DifferentCardType.ts:Clicked on the Next
+
+2020-02-06 19:40:30 - [TEST_STEP][PASSED] - CardNumber = pages.Genericsti.setUserPaymentDetails(cardNum): GenericSTI_DifferentCardType.ts:Entered'378282246310005 into CardNum
+
+2020-02-06 19:40:30 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/CARD_NUMBER' is present
+
+2020-02-06 19:40:30 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/CARD_NUMBER' is visible
+
+2020-02-06 19:40:31 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/CARD_NUMBER' is present
+
+2020-02-06 19:40:32 - [MESSAGE][PASSED] - Text '378282246310005' is set on object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/CARD_NUMBER'
+
+2020-02-06 19:40:32 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Entered'378282246310005 into CardNum
+
+2020-02-06 19:40:32 - [TEST_STEP][PASSED] - pages.Genericsti.setExpDate(expMonth, expYear, securityCode): GenericSTI_DifferentCardType.ts:Entered'111 into securityCode
+
+2020-02-06 19:40:32 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_MONTH' is visible
+
+2020-02-06 19:40:33 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_MONTH' is present
+
+2020-02-06 19:40:34 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_MONTH' is clicked on
+
+2020-02-06 19:40:36 - [MESSAGE][PASSED] - All options with label '4' are selected in object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_MONTH'  using regular expression
+
+2020-02-06 19:40:36 - [MESSAGE][PASSED] - selected dropdown option by visible text  4from expMonth
+
+2020-02-06 19:40:36 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_YEAR' is visible
+
+2020-02-06 19:40:36 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_YEAR' is present
+
+2020-02-06 19:40:37 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_YEAR' is clicked on
+
+2020-02-06 19:40:39 - [MESSAGE][PASSED] - All options with label '2024' are selected in object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_YEAR'  using regular expression
+
+2020-02-06 19:40:39 - [MESSAGE][PASSED] - selected dropdown option by visible text  2024from  expYear
+
+2020-02-06 19:40:39 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/SECURITY_CODE' is present
+
+2020-02-06 19:40:40 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/SECURITY_CODE' is visible
+
+2020-02-06 19:40:40 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/SECURITY_CODE' is present
+
+2020-02-06 19:40:41 - [MESSAGE][PASSED] - Text '111' is set on object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/SECURITY_CODE'
+
+2020-02-06 19:40:41 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Entered'111 into securityCode
+
+2020-02-06 19:40:41 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Payment_Information_Page/NEXT"), "Next", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Next
+
+2020-02-06 19:40:41 - [MESSAGE][INFO] - safeClicking
+
+2020-02-06 19:40:42 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/NEXT' is present
+
+2020-02-06 19:40:42 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/NEXT' is clickable
+
+2020-02-06 19:40:45 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/NEXT' is clicked on
+
+2020-02-06 19:40:45 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Next
+
+2020-02-06 19:40:45 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Review_Payment_Page/PROCESS_PAYMENT"), "Process payment", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Process payment
+
+2020-02-06 19:40:45 - [MESSAGE][INFO] - safeClicking
+
+2020-02-06 19:40:47 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Review_Payment_Page/PROCESS_PAYMENT' is present
+
+2020-02-06 19:40:47 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Review_Payment_Page/PROCESS_PAYMENT' is clickable
+
+2020-02-06 19:40:48 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Review_Payment_Page/PROCESS_PAYMENT' is clicked on
+
+2020-02-06 19:40:48 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Process payment
+
+2020-02-06 19:40:48 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Confirm_Payment_Page/CONFIRM_YES"), "Confirm Yes", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Confirm Yes
+
+2020-02-06 19:40:48 - [MESSAGE][INFO] - safeClicking
+
+2020-02-06 19:40:49 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Confirm_Payment_Page/CONFIRM_YES' is present
+
+2020-02-06 19:40:49 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Confirm_Payment_Page/CONFIRM_YES' is clickable
+
+2020-02-06 19:40:54 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Confirm_Payment_Page/CONFIRM_YES' is clicked on
+
+2020-02-06 19:40:54 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Confirm Yes
+
+2020-02-06 19:40:54 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Payment_Details_Verification_Page/NEXT"), "Next", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Next
+
+2020-02-06 19:40:54 - [MESSAGE][INFO] - safeClicking
+
+2020-02-06 19:40:56 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Details_Verification_Page/NEXT' is present
+
+2020-02-06 19:40:56 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Details_Verification_Page/NEXT' is clickable
+
+2020-02-06 19:41:01 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Payment_Details_Verification_Page/NEXT' is clicked on
+
+2020-02-06 19:41:01 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Next
+
+2020-02-06 19:41:01 - [TEST_STEP][PASSED] - FirstName = data.getValue("FirstName", index): null
+
+2020-02-06 19:41:01 - [TEST_STEP][PASSED] - LastName = data.getValue("LastName", index): null
+
+2020-02-06 19:41:01 - [TEST_STEP][PASSED] - Amount = data.getValue("Amount", index): null
+
+2020-02-06 19:41:01 - [TEST_STEP][PASSED] - cardNum = data.getValue("CardNumber", index): null
+
+2020-02-06 19:41:01 - [TEST_STEP][PASSED] - expMonth = data.getValue("ExpMonth", index): null
+
+2020-02-06 19:41:01 - [TEST_STEP][PASSED] - expYear = data.getValue("ExpYear", index): null
+
+2020-02-06 19:41:01 - [TEST_STEP][PASSED] - securityCode = data.getValue("SecurityCode", index): null
+
+2020-02-06 19:41:01 - [TEST_STEP][PASSED] - cardType = data.getValue("CardType", index): null
+
+2020-02-06 19:41:01 - [TEST_STEP][PASSED] - Comments = data.getValue("Comments", index): null
+
+2020-02-06 19:41:01 - [TEST_STEP][PASSED] - Address = data.getValue("Address", index): null
+
+2020-02-06 19:41:01 - [TEST_STEP][PASSED] - Telephone = data.getValue("Telephone", index): null
+
+2020-02-06 19:41:01 - [TEST_STEP][PASSED] - Email = data.getValue("EmailAddress", index): null
+
+2020-02-06 19:41:01 - [TEST_STEP][PASSED] - AccountType = data.getValue("AccountType", index): null
+
+2020-02-06 19:41:01 - [TEST_STEP][PASSED] - RoutingNumber = data.getValue("RoutingNumber", index): null
+
+2020-02-06 19:41:01 - [TEST_STEP][PASSED] - AccountNumber = data.getValue("AccountNumber", index): null
+
+2020-02-06 19:41:01 - [TEST_STEP][PASSED] - ConfirmAccountNumber = data.getValue("ConfirmAccountNumber", index): null
+
+2020-02-06 19:41:01 - [TEST_STEP][PASSED] - Signature = data.getValue("Signature", index): null
+
+2020-02-06 19:41:01 - [TEST_STEP][PASSED] - Agreement = data.getValue("Agreement", index): null
+
+2020-02-06 19:41:01 - [TEST_STEP][PASSED] - utilities.SafeActions.openBrowser(Genericsti_url, [pageLoadTime]): Browser launched successfully
+
+2020-02-06 19:41:01 - [MESSAGE][INFO] - Opening Browser
+
+2020-02-06 19:41:01 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-02-06 19:41:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-02-06 19:41:09 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa-certpaygenericsti.faps.net/genericsti/demo/'
+
+2020-02-06 19:41:10 - [MESSAGE][PASSED] - Current window maximized
+
+2020-02-06 19:41:10 - [MESSAGE][PASSED] - Browser launched successfully
+
+2020-02-06 19:41:10 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Demo_Pages/BEGIN_PAYMENT"), "Begin Payment", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Begin Payment
+
+2020-02-06 19:41:10 - [MESSAGE][INFO] - safeClicking
+
+2020-02-06 19:41:10 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Demo_Pages/BEGIN_PAYMENT' is present
+
+2020-02-06 19:41:11 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Demo_Pages/BEGIN_PAYMENT' is clickable
+
+2020-02-06 19:41:12 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Demo_Pages/BEGIN_PAYMENT' is clicked on
+
+2020-02-06 19:41:12 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Begin Payment
+
+2020-02-06 19:41:12 - [TEST_STEP][PASSED] - XMLString = utilities.SafeActions.CreateXML(FirstName, LastName, Amount, Address, Email, Telephone): utilities.SafeActions.CreateXML is PASSED
+
+2020-02-06 19:41:12 - [MESSAGE][INFO] - Create XML
+
+2020-02-06 19:41:12 - [MESSAGE][PASSED] - utilities.SafeActions.CreateXML is PASSED
+
+2020-02-06 19:41:12 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_GENERICSTI/XML_Page/XML"), XMLString, "XMLContent", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Entered'&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;Transaction xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+    &lt;BT_ID&gt;123456789&lt;/BT_ID&gt;
+    &lt;Protocol&gt;
+        &lt;RTU&gt;https://certifiedpayments.net/&lt;/RTU&gt;
+        &lt;RLU&gt;https://certifiedpayments.net/&lt;/RLU&gt;
+    &lt;/Protocol&gt;
+    &lt;Billing&gt;
+        &lt;FN Return=&quot;false&quot;&gt;Saranya&lt;/FN&gt;
+        &lt;MN Return=&quot;false&quot;&gt;K.&lt;/MN&gt;
+        &lt;LN Return=&quot;false&quot;&gt;S&lt;/LN&gt;
+        &lt;Sufx Return=&quot;false&quot; /&gt;
+        &lt;AD1 Return=&quot;false&quot;&gt;1105 Lombard Street&lt;/AD1&gt;
+        &lt;AD2 Return=&quot;false&quot;&gt;Apt. A&lt;/AD2&gt;
+        &lt;CTY Return=&quot;false&quot;&gt;New York&lt;/CTY&gt;
+        &lt;ST Return=&quot;false&quot;&gt;NY&lt;/ST&gt;
+        &lt;CNTY Return=&quot;false&quot;&gt;US&lt;/CNTY&gt;
+        &lt;Phone Return=&quot;false&quot;&gt;555-1234&lt;/Phone&gt;
+        &lt;Postal Return=&quot;false&quot;&gt;10018&lt;/Postal&gt;
+        &lt;Email Return=&quot;false&quot;&gt;Test@knila.com&lt;/Email&gt;
+    &lt;/Billing&gt;
+    &lt;Items&gt;
+        &lt;CI&gt;
+            &lt;Amount Edit=&quot;true&quot;&gt;5.00&lt;/Amount&gt;
+            &lt;BC&gt;6100000&lt;/BC&gt;
+            &lt;CFS&gt;
+                &lt;CF Edit=&quot;false&quot; Return=&quot;false&quot;&gt;
+                    &lt;CFN&gt;Order Number&lt;/CFN&gt;
+                    &lt;CFV&gt;123456789&lt;/CFV&gt;
+                    &lt;VP&gt;\d{9}&lt;/VP&gt;
+                &lt;/CF&gt;
+                &lt;CF Edit=&quot;false&quot; Return=&quot;false&quot;&gt;
+                    &lt;CFN&gt;Description&lt;/CFN&gt;
+                    &lt;CFV&gt;Speeding Ticket&lt;/CFV&gt;
+                    &lt;VP /&gt;
+                &lt;/CF&gt;
+            &lt;/CFS&gt;
+            &lt;FN&gt;Saranya&lt;/FN&gt;
+            &lt;MN&gt;K.&lt;/MN&gt;
+            &lt;LN&gt;S&lt;/LN&gt;
+            &lt;Sufx /&gt;
+            &lt;AD1&gt;1105 Lombard Street&lt;/AD1&gt;
+            &lt;AD2&gt;Apt. A&lt;/AD2&gt;
+            &lt;CTY&gt;New York&lt;/CTY&gt;
+            &lt;ST&gt;NY&lt;/ST&gt;
+            &lt;CNTY&gt;US&lt;/CNTY&gt;
+            &lt;Phone&gt;555-1234&lt;/Phone&gt;
+            &lt;Postal&gt;10018&lt;/Postal&gt;
+        &lt;/CI&gt;
+      
+    &lt;/Items&gt;
+&lt;/Transaction&gt; into XMLContent
+
+2020-02-06 19:41:13 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/XML_Page/XML' is present
+
+2020-02-06 19:41:13 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/XML_Page/XML' is visible
+
+2020-02-06 19:41:13 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/XML_Page/XML' is present
+
+2020-02-06 19:41:23 - [MESSAGE][PASSED] - Text '&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;Transaction xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+    &lt;BT_ID&gt;123456789&lt;/BT_ID&gt;
+    &lt;Protocol&gt;
+        &lt;RTU&gt;https://certifiedpayments.net/&lt;/RTU&gt;
+        &lt;RLU&gt;https://certifiedpayments.net/&lt;/RLU&gt;
+    &lt;/Protocol&gt;
+    &lt;Billing&gt;
+        &lt;FN Return=&quot;false&quot;&gt;Saranya&lt;/FN&gt;
+        &lt;MN Return=&quot;false&quot;&gt;K.&lt;/MN&gt;
+        &lt;LN Return=&quot;false&quot;&gt;S&lt;/LN&gt;
+        &lt;Sufx Return=&quot;false&quot; /&gt;
+        &lt;AD1 Return=&quot;false&quot;&gt;1105 Lombard Street&lt;/AD1&gt;
+        &lt;AD2 Return=&quot;false&quot;&gt;Apt. A&lt;/AD2&gt;
+        &lt;CTY Return=&quot;false&quot;&gt;New York&lt;/CTY&gt;
+        &lt;ST Return=&quot;false&quot;&gt;NY&lt;/ST&gt;
+        &lt;CNTY Return=&quot;false&quot;&gt;US&lt;/CNTY&gt;
+        &lt;Phone Return=&quot;false&quot;&gt;555-1234&lt;/Phone&gt;
+        &lt;Postal Return=&quot;false&quot;&gt;10018&lt;/Postal&gt;
+        &lt;Email Return=&quot;false&quot;&gt;Test@knila.com&lt;/Email&gt;
+    &lt;/Billing&gt;
+    &lt;Items&gt;
+        &lt;CI&gt;
+            &lt;Amount Edit=&quot;true&quot;&gt;5.00&lt;/Amount&gt;
+            &lt;BC&gt;6100000&lt;/BC&gt;
+            &lt;CFS&gt;
+                &lt;CF Edit=&quot;false&quot; Return=&quot;false&quot;&gt;
+                    &lt;CFN&gt;Order Number&lt;/CFN&gt;
+                    &lt;CFV&gt;123456789&lt;/CFV&gt;
+                    &lt;VP&gt;\d{9}&lt;/VP&gt;
+                &lt;/CF&gt;
+                &lt;CF Edit=&quot;false&quot; Return=&quot;false&quot;&gt;
+                    &lt;CFN&gt;Description&lt;/CFN&gt;
+                    &lt;CFV&gt;Speeding Ticket&lt;/CFV&gt;
+                    &lt;VP /&gt;
+                &lt;/CF&gt;
+            &lt;/CFS&gt;
+            &lt;FN&gt;Saranya&lt;/FN&gt;
+            &lt;MN&gt;K.&lt;/MN&gt;
+            &lt;LN&gt;S&lt;/LN&gt;
+            &lt;Sufx /&gt;
+            &lt;AD1&gt;1105 Lombard Street&lt;/AD1&gt;
+            &lt;AD2&gt;Apt. A&lt;/AD2&gt;
+            &lt;CTY&gt;New York&lt;/CTY&gt;
+            &lt;ST&gt;NY&lt;/ST&gt;
+            &lt;CNTY&gt;US&lt;/CNTY&gt;
+            &lt;Phone&gt;555-1234&lt;/Phone&gt;
+            &lt;Postal&gt;10018&lt;/Postal&gt;
+        &lt;/CI&gt;
+      
+    &lt;/Items&gt;
+&lt;/Transaction&gt;' is set on object 'Object Repository/CERTPAY_GENERICSTI/XML_Page/XML'
+
+2020-02-06 19:41:23 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Entered'&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;Transaction xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+    &lt;BT_ID&gt;123456789&lt;/BT_ID&gt;
+    &lt;Protocol&gt;
+        &lt;RTU&gt;https://certifiedpayments.net/&lt;/RTU&gt;
+        &lt;RLU&gt;https://certifiedpayments.net/&lt;/RLU&gt;
+    &lt;/Protocol&gt;
+    &lt;Billing&gt;
+        &lt;FN Return=&quot;false&quot;&gt;Saranya&lt;/FN&gt;
+        &lt;MN Return=&quot;false&quot;&gt;K.&lt;/MN&gt;
+        &lt;LN Return=&quot;false&quot;&gt;S&lt;/LN&gt;
+        &lt;Sufx Return=&quot;false&quot; /&gt;
+        &lt;AD1 Return=&quot;false&quot;&gt;1105 Lombard Street&lt;/AD1&gt;
+        &lt;AD2 Return=&quot;false&quot;&gt;Apt. A&lt;/AD2&gt;
+        &lt;CTY Return=&quot;false&quot;&gt;New York&lt;/CTY&gt;
+        &lt;ST Return=&quot;false&quot;&gt;NY&lt;/ST&gt;
+        &lt;CNTY Return=&quot;false&quot;&gt;US&lt;/CNTY&gt;
+        &lt;Phone Return=&quot;false&quot;&gt;555-1234&lt;/Phone&gt;
+        &lt;Postal Return=&quot;false&quot;&gt;10018&lt;/Postal&gt;
+        &lt;Email Return=&quot;false&quot;&gt;Test@knila.com&lt;/Email&gt;
+    &lt;/Billing&gt;
+    &lt;Items&gt;
+        &lt;CI&gt;
+            &lt;Amount Edit=&quot;true&quot;&gt;5.00&lt;/Amount&gt;
+            &lt;BC&gt;6100000&lt;/BC&gt;
+            &lt;CFS&gt;
+                &lt;CF Edit=&quot;false&quot; Return=&quot;false&quot;&gt;
+                    &lt;CFN&gt;Order Number&lt;/CFN&gt;
+                    &lt;CFV&gt;123456789&lt;/CFV&gt;
+                    &lt;VP&gt;\d{9}&lt;/VP&gt;
+                &lt;/CF&gt;
+                &lt;CF Edit=&quot;false&quot; Return=&quot;false&quot;&gt;
+                    &lt;CFN&gt;Description&lt;/CFN&gt;
+                    &lt;CFV&gt;Speeding Ticket&lt;/CFV&gt;
+                    &lt;VP /&gt;
+                &lt;/CF&gt;
+            &lt;/CFS&gt;
+            &lt;FN&gt;Saranya&lt;/FN&gt;
+            &lt;MN&gt;K.&lt;/MN&gt;
+            &lt;LN&gt;S&lt;/LN&gt;
+            &lt;Sufx /&gt;
+            &lt;AD1&gt;1105 Lombard Street&lt;/AD1&gt;
+            &lt;AD2&gt;Apt. A&lt;/AD2&gt;
+            &lt;CTY&gt;New York&lt;/CTY&gt;
+            &lt;ST&gt;NY&lt;/ST&gt;
+            &lt;CNTY&gt;US&lt;/CNTY&gt;
+            &lt;Phone&gt;555-1234&lt;/Phone&gt;
+            &lt;Postal&gt;10018&lt;/Postal&gt;
+        &lt;/CI&gt;
+      
+    &lt;/Items&gt;
+&lt;/Transaction&gt; into XMLContent
+
+2020-02-06 19:41:23 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/XML_Page/SUBMIT"), "Submit XML", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Submit XML
+
+2020-02-06 19:41:23 - [MESSAGE][INFO] - safeClicking
+
+2020-02-06 19:41:23 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/XML_Page/SUBMIT' is present
+
+2020-02-06 19:41:24 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/XML_Page/SUBMIT' is clickable
+
+2020-02-06 19:41:29 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/XML_Page/SUBMIT' is clicked on
+
+2020-02-06 19:41:29 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Submit XML
+
+2020-02-06 19:41:29 - [TEST_STEP][PASSED] - if (cardType == "Visa"): null
+
+2020-02-06 19:41:29 - [TEST_STEP][PASSED] - else if (cardType == "MasterCard"): null
+
+2020-02-06 19:41:29 - [TEST_STEP][PASSED] - else if (cardType == "AmericanExpress"): null
+
+2020-02-06 19:41:29 - [TEST_STEP][PASSED] - else if (cardType == "Discover"): GenericSTI_DifferentCardType.ts:Clicked on the Discover
+
+2020-02-06 19:41:29 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Payment_Information_Page/DISCOVER"), "Discover", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Discover
+
+2020-02-06 19:41:29 - [MESSAGE][INFO] - safeClicking
+
+2020-02-06 19:41:30 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/DISCOVER' is present
+
+2020-02-06 19:41:31 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/DISCOVER' is clickable
+
+2020-02-06 19:41:34 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/DISCOVER' is clicked on
+
+2020-02-06 19:41:34 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Discover
+
+2020-02-06 19:41:34 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_GENERICSTI/Payment_Information_Page/COMMENTS"), "Testing", "Comments", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Entered'Testing into Comments
+
+2020-02-06 19:41:34 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/COMMENTS' is present
+
+2020-02-06 19:41:35 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/COMMENTS' is visible
+
+2020-02-06 19:41:35 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/COMMENTS' is present
+
+2020-02-06 19:41:36 - [MESSAGE][PASSED] - Text 'Testing' is set on object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/COMMENTS'
+
+2020-02-06 19:41:36 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Entered'Testing into Comments
+
+2020-02-06 19:41:36 - [TEST_STEP][PASSED] - if (cardType == "Echeck"): null
+
+2020-02-06 19:41:36 - [TEST_STEP][PASSED] - else: GenericSTI_DifferentCardType.ts:Clicked on the Next
+
+2020-02-06 19:41:36 - [TEST_STEP][PASSED] - CardNumber = pages.Genericsti.setUserPaymentDetails(cardNum): GenericSTI_DifferentCardType.ts:Entered'6011111111111117 into CardNum
+
+2020-02-06 19:41:37 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/CARD_NUMBER' is present
+
+2020-02-06 19:41:37 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/CARD_NUMBER' is visible
+
+2020-02-06 19:41:37 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/CARD_NUMBER' is present
+
+2020-02-06 19:41:39 - [MESSAGE][PASSED] - Text '6011111111111117' is set on object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/CARD_NUMBER'
+
+2020-02-06 19:41:39 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Entered'6011111111111117 into CardNum
+
+2020-02-06 19:41:39 - [TEST_STEP][PASSED] - pages.Genericsti.setExpDate(expMonth, expYear, securityCode): GenericSTI_DifferentCardType.ts:Entered'204 into securityCode
+
+2020-02-06 19:41:39 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_MONTH' is visible
+
+2020-02-06 19:41:39 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_MONTH' is present
+
+2020-02-06 19:41:41 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_MONTH' is clicked on
+
+2020-02-06 19:41:42 - [MESSAGE][PASSED] - All options with label '2' are selected in object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_MONTH'  using regular expression
+
+2020-02-06 19:41:42 - [MESSAGE][PASSED] - selected dropdown option by visible text  2from expMonth
+
+2020-02-06 19:41:42 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_YEAR' is visible
+
+2020-02-06 19:41:43 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_YEAR' is present
+
+2020-02-06 19:41:44 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_YEAR' is clicked on
+
+2020-02-06 19:41:45 - [MESSAGE][PASSED] - All options with label '2023' are selected in object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_YEAR'  using regular expression
+
+2020-02-06 19:41:45 - [MESSAGE][PASSED] - selected dropdown option by visible text  2023from  expYear
+
+2020-02-06 19:41:46 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/SECURITY_CODE' is present
+
+2020-02-06 19:41:46 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/SECURITY_CODE' is visible
+
+2020-02-06 19:41:46 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/SECURITY_CODE' is present
+
+2020-02-06 19:41:48 - [MESSAGE][PASSED] - Text '204' is set on object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/SECURITY_CODE'
+
+2020-02-06 19:41:48 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Entered'204 into securityCode
+
+2020-02-06 19:41:48 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Payment_Information_Page/NEXT"), "Next", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Next
+
+2020-02-06 19:41:48 - [MESSAGE][INFO] - safeClicking
+
+2020-02-06 19:41:48 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/NEXT' is present
+
+2020-02-06 19:41:48 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/NEXT' is clickable
+
+2020-02-06 19:41:52 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/NEXT' is clicked on
+
+2020-02-06 19:41:52 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Next
+
+2020-02-06 19:41:52 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Review_Payment_Page/PROCESS_PAYMENT"), "Process payment", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Process payment
+
+2020-02-06 19:41:52 - [MESSAGE][INFO] - safeClicking
+
+2020-02-06 19:41:53 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Review_Payment_Page/PROCESS_PAYMENT' is present
+
+2020-02-06 19:41:53 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Review_Payment_Page/PROCESS_PAYMENT' is clickable
+
+2020-02-06 19:41:55 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Review_Payment_Page/PROCESS_PAYMENT' is clicked on
+
+2020-02-06 19:41:55 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Process payment
+
+2020-02-06 19:41:55 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Confirm_Payment_Page/CONFIRM_YES"), "Confirm Yes", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Confirm Yes
+
+2020-02-06 19:41:55 - [MESSAGE][INFO] - safeClicking
+
+2020-02-06 19:41:55 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Confirm_Payment_Page/CONFIRM_YES' is present
+
+2020-02-06 19:41:56 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Confirm_Payment_Page/CONFIRM_YES' is clickable
+
+2020-02-06 19:41:59 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Confirm_Payment_Page/CONFIRM_YES' is clicked on
+
+2020-02-06 19:41:59 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Confirm Yes
+
+2020-02-06 19:41:59 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Payment_Details_Verification_Page/NEXT"), "Next", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Next
+
+2020-02-06 19:41:59 - [MESSAGE][INFO] - safeClicking
+
+2020-02-06 19:42:01 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Details_Verification_Page/NEXT' is present
+
+2020-02-06 19:42:01 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Details_Verification_Page/NEXT' is clickable
+
+2020-02-06 19:42:06 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Payment_Details_Verification_Page/NEXT' is clicked on
+
+2020-02-06 19:42:06 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Next
+
+2020-02-06 19:42:06 - [TEST_STEP][PASSED] - FirstName = data.getValue("FirstName", index): null
+
+2020-02-06 19:42:06 - [TEST_STEP][PASSED] - LastName = data.getValue("LastName", index): null
+
+2020-02-06 19:42:06 - [TEST_STEP][PASSED] - Amount = data.getValue("Amount", index): null
+
+2020-02-06 19:42:06 - [TEST_STEP][PASSED] - cardNum = data.getValue("CardNumber", index): null
+
+2020-02-06 19:42:06 - [TEST_STEP][PASSED] - expMonth = data.getValue("ExpMonth", index): null
+
+2020-02-06 19:42:06 - [TEST_STEP][PASSED] - expYear = data.getValue("ExpYear", index): null
+
+2020-02-06 19:42:06 - [TEST_STEP][PASSED] - securityCode = data.getValue("SecurityCode", index): null
+
+2020-02-06 19:42:06 - [TEST_STEP][PASSED] - cardType = data.getValue("CardType", index): null
+
+2020-02-06 19:42:06 - [TEST_STEP][PASSED] - Comments = data.getValue("Comments", index): null
+
+2020-02-06 19:42:06 - [TEST_STEP][PASSED] - Address = data.getValue("Address", index): null
+
+2020-02-06 19:42:06 - [TEST_STEP][PASSED] - Telephone = data.getValue("Telephone", index): null
+
+2020-02-06 19:42:06 - [TEST_STEP][PASSED] - Email = data.getValue("EmailAddress", index): null
+
+2020-02-06 19:42:06 - [TEST_STEP][PASSED] - AccountType = data.getValue("AccountType", index): null
+
+2020-02-06 19:42:06 - [TEST_STEP][PASSED] - RoutingNumber = data.getValue("RoutingNumber", index): null
+
+2020-02-06 19:42:06 - [TEST_STEP][PASSED] - AccountNumber = data.getValue("AccountNumber", index): null
+
+2020-02-06 19:42:06 - [TEST_STEP][PASSED] - ConfirmAccountNumber = data.getValue("ConfirmAccountNumber", index): null
+
+2020-02-06 19:42:06 - [TEST_STEP][PASSED] - Signature = data.getValue("Signature", index): null
+
+2020-02-06 19:42:06 - [TEST_STEP][PASSED] - Agreement = data.getValue("Agreement", index): null
+
+2020-02-06 19:42:06 - [TEST_STEP][PASSED] - utilities.SafeActions.openBrowser(Genericsti_url, [pageLoadTime]): Browser launched successfully
+
+2020-02-06 19:42:06 - [MESSAGE][INFO] - Opening Browser
+
+2020-02-06 19:42:06 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-02-06 19:42:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-02-06 19:42:12 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa-certpaygenericsti.faps.net/genericsti/demo/'
+
+2020-02-06 19:42:14 - [MESSAGE][PASSED] - Current window maximized
+
+2020-02-06 19:42:14 - [MESSAGE][PASSED] - Browser launched successfully
+
+2020-02-06 19:42:14 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Demo_Pages/BEGIN_PAYMENT"), "Begin Payment", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Begin Payment
+
+2020-02-06 19:42:14 - [MESSAGE][INFO] - safeClicking
+
+2020-02-06 19:42:14 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Demo_Pages/BEGIN_PAYMENT' is present
+
+2020-02-06 19:42:14 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Demo_Pages/BEGIN_PAYMENT' is clickable
+
+2020-02-06 19:42:17 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Demo_Pages/BEGIN_PAYMENT' is clicked on
+
+2020-02-06 19:42:17 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Begin Payment
+
+2020-02-06 19:42:17 - [TEST_STEP][PASSED] - XMLString = utilities.SafeActions.CreateXML(FirstName, LastName, Amount, Address, Email, Telephone): utilities.SafeActions.CreateXML is PASSED
+
+2020-02-06 19:42:17 - [MESSAGE][INFO] - Create XML
+
+2020-02-06 19:42:17 - [MESSAGE][PASSED] - utilities.SafeActions.CreateXML is PASSED
+
+2020-02-06 19:42:17 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_GENERICSTI/XML_Page/XML"), XMLString, "XMLContent", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Entered'&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;Transaction xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+    &lt;BT_ID&gt;123456789&lt;/BT_ID&gt;
+    &lt;Protocol&gt;
+        &lt;RTU&gt;https://certifiedpayments.net/&lt;/RTU&gt;
+        &lt;RLU&gt;https://certifiedpayments.net/&lt;/RLU&gt;
+    &lt;/Protocol&gt;
+    &lt;Billing&gt;
+        &lt;FN Return=&quot;false&quot;&gt;Anitha&lt;/FN&gt;
+        &lt;MN Return=&quot;false&quot;&gt;K.&lt;/MN&gt;
+        &lt;LN Return=&quot;false&quot;&gt;T&lt;/LN&gt;
+        &lt;Sufx Return=&quot;false&quot; /&gt;
+        &lt;AD1 Return=&quot;false&quot;&gt;1487 Rodeodrive&lt;/AD1&gt;
+        &lt;AD2 Return=&quot;false&quot;&gt;Apt. A&lt;/AD2&gt;
+        &lt;CTY Return=&quot;false&quot;&gt;New York&lt;/CTY&gt;
+        &lt;ST Return=&quot;false&quot;&gt;NY&lt;/ST&gt;
+        &lt;CNTY Return=&quot;false&quot;&gt;US&lt;/CNTY&gt;
+        &lt;Phone Return=&quot;false&quot;&gt;555-1234&lt;/Phone&gt;
+        &lt;Postal Return=&quot;false&quot;&gt;10018&lt;/Postal&gt;
+        &lt;Email Return=&quot;false&quot;&gt;Test@knila.com&lt;/Email&gt;
+    &lt;/Billing&gt;
+    &lt;Items&gt;
+        &lt;CI&gt;
+            &lt;Amount Edit=&quot;true&quot;&gt;10.00&lt;/Amount&gt;
+            &lt;BC&gt;6100000&lt;/BC&gt;
+            &lt;CFS&gt;
+                &lt;CF Edit=&quot;false&quot; Return=&quot;false&quot;&gt;
+                    &lt;CFN&gt;Order Number&lt;/CFN&gt;
+                    &lt;CFV&gt;123456789&lt;/CFV&gt;
+                    &lt;VP&gt;\d{9}&lt;/VP&gt;
+                &lt;/CF&gt;
+                &lt;CF Edit=&quot;false&quot; Return=&quot;false&quot;&gt;
+                    &lt;CFN&gt;Description&lt;/CFN&gt;
+                    &lt;CFV&gt;Speeding Ticket&lt;/CFV&gt;
+                    &lt;VP /&gt;
+                &lt;/CF&gt;
+            &lt;/CFS&gt;
+            &lt;FN&gt;Anitha&lt;/FN&gt;
+            &lt;MN&gt;K.&lt;/MN&gt;
+            &lt;LN&gt;T&lt;/LN&gt;
+            &lt;Sufx /&gt;
+            &lt;AD1&gt;1487 Rodeodrive&lt;/AD1&gt;
+            &lt;AD2&gt;Apt. A&lt;/AD2&gt;
+            &lt;CTY&gt;New York&lt;/CTY&gt;
+            &lt;ST&gt;NY&lt;/ST&gt;
+            &lt;CNTY&gt;US&lt;/CNTY&gt;
+            &lt;Phone&gt;555-1234&lt;/Phone&gt;
+            &lt;Postal&gt;10018&lt;/Postal&gt;
+        &lt;/CI&gt;
+      
+    &lt;/Items&gt;
+&lt;/Transaction&gt; into XMLContent
+
+2020-02-06 19:42:17 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/XML_Page/XML' is present
+
+2020-02-06 19:42:18 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/XML_Page/XML' is visible
+
+2020-02-06 19:42:18 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/XML_Page/XML' is present
+
+2020-02-06 19:42:28 - [MESSAGE][PASSED] - Text '&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;Transaction xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+    &lt;BT_ID&gt;123456789&lt;/BT_ID&gt;
+    &lt;Protocol&gt;
+        &lt;RTU&gt;https://certifiedpayments.net/&lt;/RTU&gt;
+        &lt;RLU&gt;https://certifiedpayments.net/&lt;/RLU&gt;
+    &lt;/Protocol&gt;
+    &lt;Billing&gt;
+        &lt;FN Return=&quot;false&quot;&gt;Anitha&lt;/FN&gt;
+        &lt;MN Return=&quot;false&quot;&gt;K.&lt;/MN&gt;
+        &lt;LN Return=&quot;false&quot;&gt;T&lt;/LN&gt;
+        &lt;Sufx Return=&quot;false&quot; /&gt;
+        &lt;AD1 Return=&quot;false&quot;&gt;1487 Rodeodrive&lt;/AD1&gt;
+        &lt;AD2 Return=&quot;false&quot;&gt;Apt. A&lt;/AD2&gt;
+        &lt;CTY Return=&quot;false&quot;&gt;New York&lt;/CTY&gt;
+        &lt;ST Return=&quot;false&quot;&gt;NY&lt;/ST&gt;
+        &lt;CNTY Return=&quot;false&quot;&gt;US&lt;/CNTY&gt;
+        &lt;Phone Return=&quot;false&quot;&gt;555-1234&lt;/Phone&gt;
+        &lt;Postal Return=&quot;false&quot;&gt;10018&lt;/Postal&gt;
+        &lt;Email Return=&quot;false&quot;&gt;Test@knila.com&lt;/Email&gt;
+    &lt;/Billing&gt;
+    &lt;Items&gt;
+        &lt;CI&gt;
+            &lt;Amount Edit=&quot;true&quot;&gt;10.00&lt;/Amount&gt;
+            &lt;BC&gt;6100000&lt;/BC&gt;
+            &lt;CFS&gt;
+                &lt;CF Edit=&quot;false&quot; Return=&quot;false&quot;&gt;
+                    &lt;CFN&gt;Order Number&lt;/CFN&gt;
+                    &lt;CFV&gt;123456789&lt;/CFV&gt;
+                    &lt;VP&gt;\d{9}&lt;/VP&gt;
+                &lt;/CF&gt;
+                &lt;CF Edit=&quot;false&quot; Return=&quot;false&quot;&gt;
+                    &lt;CFN&gt;Description&lt;/CFN&gt;
+                    &lt;CFV&gt;Speeding Ticket&lt;/CFV&gt;
+                    &lt;VP /&gt;
+                &lt;/CF&gt;
+            &lt;/CFS&gt;
+            &lt;FN&gt;Anitha&lt;/FN&gt;
+            &lt;MN&gt;K.&lt;/MN&gt;
+            &lt;LN&gt;T&lt;/LN&gt;
+            &lt;Sufx /&gt;
+            &lt;AD1&gt;1487 Rodeodrive&lt;/AD1&gt;
+            &lt;AD2&gt;Apt. A&lt;/AD2&gt;
+            &lt;CTY&gt;New York&lt;/CTY&gt;
+            &lt;ST&gt;NY&lt;/ST&gt;
+            &lt;CNTY&gt;US&lt;/CNTY&gt;
+            &lt;Phone&gt;555-1234&lt;/Phone&gt;
+            &lt;Postal&gt;10018&lt;/Postal&gt;
+        &lt;/CI&gt;
+      
+    &lt;/Items&gt;
+&lt;/Transaction&gt;' is set on object 'Object Repository/CERTPAY_GENERICSTI/XML_Page/XML'
+
+2020-02-06 19:42:28 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Entered'&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;Transaction xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+    &lt;BT_ID&gt;123456789&lt;/BT_ID&gt;
+    &lt;Protocol&gt;
+        &lt;RTU&gt;https://certifiedpayments.net/&lt;/RTU&gt;
+        &lt;RLU&gt;https://certifiedpayments.net/&lt;/RLU&gt;
+    &lt;/Protocol&gt;
+    &lt;Billing&gt;
+        &lt;FN Return=&quot;false&quot;&gt;Anitha&lt;/FN&gt;
+        &lt;MN Return=&quot;false&quot;&gt;K.&lt;/MN&gt;
+        &lt;LN Return=&quot;false&quot;&gt;T&lt;/LN&gt;
+        &lt;Sufx Return=&quot;false&quot; /&gt;
+        &lt;AD1 Return=&quot;false&quot;&gt;1487 Rodeodrive&lt;/AD1&gt;
+        &lt;AD2 Return=&quot;false&quot;&gt;Apt. A&lt;/AD2&gt;
+        &lt;CTY Return=&quot;false&quot;&gt;New York&lt;/CTY&gt;
+        &lt;ST Return=&quot;false&quot;&gt;NY&lt;/ST&gt;
+        &lt;CNTY Return=&quot;false&quot;&gt;US&lt;/CNTY&gt;
+        &lt;Phone Return=&quot;false&quot;&gt;555-1234&lt;/Phone&gt;
+        &lt;Postal Return=&quot;false&quot;&gt;10018&lt;/Postal&gt;
+        &lt;Email Return=&quot;false&quot;&gt;Test@knila.com&lt;/Email&gt;
+    &lt;/Billing&gt;
+    &lt;Items&gt;
+        &lt;CI&gt;
+            &lt;Amount Edit=&quot;true&quot;&gt;10.00&lt;/Amount&gt;
+            &lt;BC&gt;6100000&lt;/BC&gt;
+            &lt;CFS&gt;
+                &lt;CF Edit=&quot;false&quot; Return=&quot;false&quot;&gt;
+                    &lt;CFN&gt;Order Number&lt;/CFN&gt;
+                    &lt;CFV&gt;123456789&lt;/CFV&gt;
+                    &lt;VP&gt;\d{9}&lt;/VP&gt;
+                &lt;/CF&gt;
+                &lt;CF Edit=&quot;false&quot; Return=&quot;false&quot;&gt;
+                    &lt;CFN&gt;Description&lt;/CFN&gt;
+                    &lt;CFV&gt;Speeding Ticket&lt;/CFV&gt;
+                    &lt;VP /&gt;
+                &lt;/CF&gt;
+            &lt;/CFS&gt;
+            &lt;FN&gt;Anitha&lt;/FN&gt;
+            &lt;MN&gt;K.&lt;/MN&gt;
+            &lt;LN&gt;T&lt;/LN&gt;
+            &lt;Sufx /&gt;
+            &lt;AD1&gt;1487 Rodeodrive&lt;/AD1&gt;
+            &lt;AD2&gt;Apt. A&lt;/AD2&gt;
+            &lt;CTY&gt;New York&lt;/CTY&gt;
+            &lt;ST&gt;NY&lt;/ST&gt;
+            &lt;CNTY&gt;US&lt;/CNTY&gt;
+            &lt;Phone&gt;555-1234&lt;/Phone&gt;
+            &lt;Postal&gt;10018&lt;/Postal&gt;
+        &lt;/CI&gt;
+      
+    &lt;/Items&gt;
+&lt;/Transaction&gt; into XMLContent
+
+2020-02-06 19:42:28 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/XML_Page/SUBMIT"), "Submit XML", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Submit XML
+
+2020-02-06 19:42:28 - [MESSAGE][INFO] - safeClicking
+
+2020-02-06 19:42:28 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/XML_Page/SUBMIT' is present
+
+2020-02-06 19:42:28 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/XML_Page/SUBMIT' is clickable
+
+2020-02-06 19:42:34 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/XML_Page/SUBMIT' is clicked on
+
+2020-02-06 19:42:34 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Submit XML
+
+2020-02-06 19:42:34 - [TEST_STEP][PASSED] - if (cardType == "Visa"): null
+
+2020-02-06 19:42:34 - [TEST_STEP][PASSED] - else if (cardType == "MasterCard"): null
+
+2020-02-06 19:42:34 - [TEST_STEP][PASSED] - else if (cardType == "AmericanExpress"): null
+
+2020-02-06 19:42:34 - [TEST_STEP][PASSED] - else if (cardType == "Discover"): null
+
+2020-02-06 19:42:34 - [TEST_STEP][PASSED] - else if (cardType == "Echeck"): GenericSTI_DifferentCardType.ts:Clicked on the Echeck
+
+2020-02-06 19:42:34 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Payment_Information_Page/ECHECK"), "Echeck", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Echeck
+
+2020-02-06 19:42:34 - [MESSAGE][INFO] - safeClicking
+
+2020-02-06 19:42:35 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/ECHECK' is present
+
+2020-02-06 19:42:35 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/ECHECK' is clickable
+
+2020-02-06 19:42:38 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/ECHECK' is clicked on
+
+2020-02-06 19:42:38 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Echeck
+
+2020-02-06 19:42:38 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_GENERICSTI/Payment_Information_Page/COMMENTS"), "Testing", "Comments", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Entered'Testing into Comments
+
+2020-02-06 19:42:39 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/COMMENTS' is present
+
+2020-02-06 19:42:39 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/COMMENTS' is visible
+
+2020-02-06 19:42:39 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/COMMENTS' is present
+
+2020-02-06 19:42:41 - [MESSAGE][PASSED] - Text 'Testing' is set on object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/COMMENTS'
+
+2020-02-06 19:42:41 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Entered'Testing into Comments
+
+2020-02-06 19:42:41 - [TEST_STEP][PASSED] - if (cardType == "Echeck"): GenericSTI_DifferentCardType.ts:Clicked on the Accept
+
+2020-02-06 19:42:41 - [TEST_STEP][PASSED] - if (AccountType == "Checking"): GenericSTI_DifferentCardType.ts:Clicked on the Echeck Checking
+
+2020-02-06 19:42:41 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Payment_Information_Page/ECHECK_CHECKING"), "Echeck Checking", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Echeck Checking
+
+2020-02-06 19:42:41 - [MESSAGE][INFO] - safeClicking
+
+2020-02-06 19:42:41 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/ECHECK_CHECKING' is present
+
+2020-02-06 19:42:41 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/ECHECK_CHECKING' is clickable
+
+2020-02-06 19:42:43 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/ECHECK_CHECKING' is clicked on
+
+2020-02-06 19:42:43 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Echeck Checking
+
+2020-02-06 19:42:43 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_GENERICSTI/Payment_Information_Page/ROUTING_NUMBER"), RoutingNumber, "Routing Number", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Entered'071001041 into Routing Number
+
+2020-02-06 19:42:43 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/ROUTING_NUMBER' is present
+
+2020-02-06 19:42:44 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/ROUTING_NUMBER' is visible
+
+2020-02-06 19:42:44 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/ROUTING_NUMBER' is present
+
+2020-02-06 19:42:45 - [MESSAGE][PASSED] - Text '071001041' is set on object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/ROUTING_NUMBER'
+
+2020-02-06 19:42:45 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Entered'071001041 into Routing Number
+
+2020-02-06 19:42:45 - [TEST_STEP][PASSED] - sendKeys(findTestObject("CERTPAY_GENERICSTI/Payment_Information_Page/BANK_NAME"), Keys.chord(TAB)): Keys 'TAB + ' sent to object: 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/BANK_NAME'
+
+2020-02-06 19:42:46 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/BANK_NAME'
+
+2020-02-06 19:42:46 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_GENERICSTI/Payment_Information_Page/ACCOUNT_NUMBER"), AccountNumber, "Account Number", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Entered'123456 into Account Number
+
+2020-02-06 19:42:47 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/ACCOUNT_NUMBER' is present
+
+2020-02-06 19:42:48 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/ACCOUNT_NUMBER' is visible
+
+2020-02-06 19:42:48 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/ACCOUNT_NUMBER' is present
+
+2020-02-06 19:42:49 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/ACCOUNT_NUMBER'
+
+2020-02-06 19:42:49 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Entered'123456 into Account Number
+
+2020-02-06 19:42:49 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_GENERICSTI/Payment_Information_Page/CONFIRM_ACCOUNT_NUMBER"), ConfirmAccountNumber, "ConfirmAccountNumber", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Entered'123456 into ConfirmAccountNumber
+
+2020-02-06 19:42:50 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/CONFIRM_ACCOUNT_NUMBER' is present
+
+2020-02-06 19:42:50 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/CONFIRM_ACCOUNT_NUMBER' is visible
+
+2020-02-06 19:42:50 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/CONFIRM_ACCOUNT_NUMBER' is present
+
+2020-02-06 19:42:52 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/CONFIRM_ACCOUNT_NUMBER'
+
+2020-02-06 19:42:52 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Entered'123456 into ConfirmAccountNumber
+
+2020-02-06 19:42:52 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_GENERICSTI/Payment_Information_Page/SIGNATURE"), Signature, "Signature", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Entered'Valarmathi into Signature
+
+2020-02-06 19:42:52 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/SIGNATURE' is present
+
+2020-02-06 19:42:52 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/SIGNATURE' is visible
+
+2020-02-06 19:42:53 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/SIGNATURE' is present
+
+2020-02-06 19:42:54 - [MESSAGE][PASSED] - Text 'Valarmathi' is set on object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/SIGNATURE'
+
+2020-02-06 19:42:54 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Entered'Valarmathi into Signature
+
+2020-02-06 19:42:54 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_GENERICSTI/Payment_Information_Page/AGREEMENT"), Agreement, "Agreement", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Entered'Yes into Agreement
+
+2020-02-06 19:42:54 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/AGREEMENT' is present
+
+2020-02-06 19:42:55 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/AGREEMENT' is visible
+
+2020-02-06 19:42:55 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/AGREEMENT' is present
+
+2020-02-06 19:42:56 - [MESSAGE][PASSED] - Text 'Yes' is set on object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/AGREEMENT'
+
+2020-02-06 19:42:56 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Entered'Yes into Agreement
+
+2020-02-06 19:42:56 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Payment_Information_Page/ECHECK_NEXT"), "Next", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Next
+
+2020-02-06 19:42:56 - [MESSAGE][INFO] - safeClicking
+
+2020-02-06 19:42:57 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/ECHECK_NEXT' is present
+
+2020-02-06 19:42:57 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/ECHECK_NEXT' is clickable
+
+2020-02-06 19:42:58 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/ECHECK_NEXT' is clicked on
+
+2020-02-06 19:42:58 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Next
+
+2020-02-06 19:42:58 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Confirm_Payment_Page/ECHECK_ACCEPT"), "Accept", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Accept
+
+2020-02-06 19:42:58 - [MESSAGE][INFO] - safeClicking
+
+2020-02-06 19:42:59 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Confirm_Payment_Page/ECHECK_ACCEPT' is present
+
+2020-02-06 19:42:59 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Confirm_Payment_Page/ECHECK_ACCEPT' is clickable
+
+2020-02-06 19:43:03 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Confirm_Payment_Page/ECHECK_ACCEPT' is clicked on
+
+2020-02-06 19:43:03 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Accept
+
+2020-02-06 19:43:03 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Review_Payment_Page/PROCESS_PAYMENT"), "Process payment", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Process payment
+
+2020-02-06 19:43:03 - [MESSAGE][INFO] - safeClicking
+
+2020-02-06 19:43:04 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Review_Payment_Page/PROCESS_PAYMENT' is present
+
+2020-02-06 19:43:04 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Review_Payment_Page/PROCESS_PAYMENT' is clickable
+
+2020-02-06 19:43:06 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Review_Payment_Page/PROCESS_PAYMENT' is clicked on
+
+2020-02-06 19:43:06 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Process payment
+
+2020-02-06 19:43:06 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Confirm_Payment_Page/CONFIRM_YES"), "Confirm Yes", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Confirm Yes
+
+2020-02-06 19:43:06 - [MESSAGE][INFO] - safeClicking
+
+2020-02-06 19:43:06 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Confirm_Payment_Page/CONFIRM_YES' is present
+
+2020-02-06 19:43:07 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Confirm_Payment_Page/CONFIRM_YES' is clickable
+
+2020-02-06 19:43:10 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Confirm_Payment_Page/CONFIRM_YES' is clicked on
+
+2020-02-06 19:43:10 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Confirm Yes
+
+2020-02-06 19:43:10 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Payment_Details_Verification_Page/NEXT"), "Next", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Next
+
+2020-02-06 19:43:10 - [MESSAGE][INFO] - safeClicking
+
+2020-02-06 19:43:11 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Details_Verification_Page/NEXT' is present
+
+2020-02-06 19:43:11 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Details_Verification_Page/NEXT' is clickable
+
+2020-02-06 19:43:16 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Payment_Details_Verification_Page/NEXT' is clicked on
+
+2020-02-06 19:43:16 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Next
+
+2020-02-06 19:43:16 - [TEST_STEP][PASSED] - FirstName = data.getValue("FirstName", index): null
+
+2020-02-06 19:43:16 - [TEST_STEP][PASSED] - LastName = data.getValue("LastName", index): null
+
+2020-02-06 19:43:16 - [TEST_STEP][PASSED] - Amount = data.getValue("Amount", index): null
+
+2020-02-06 19:43:16 - [TEST_STEP][PASSED] - cardNum = data.getValue("CardNumber", index): null
+
+2020-02-06 19:43:16 - [TEST_STEP][PASSED] - expMonth = data.getValue("ExpMonth", index): null
+
+2020-02-06 19:43:17 - [TEST_STEP][PASSED] - expYear = data.getValue("ExpYear", index): null
+
+2020-02-06 19:43:17 - [TEST_STEP][PASSED] - securityCode = data.getValue("SecurityCode", index): null
+
+2020-02-06 19:43:17 - [TEST_STEP][PASSED] - cardType = data.getValue("CardType", index): null
+
+2020-02-06 19:43:17 - [TEST_STEP][PASSED] - Comments = data.getValue("Comments", index): null
+
+2020-02-06 19:43:17 - [TEST_STEP][PASSED] - Address = data.getValue("Address", index): null
+
+2020-02-06 19:43:17 - [TEST_STEP][PASSED] - Telephone = data.getValue("Telephone", index): null
+
+2020-02-06 19:43:17 - [TEST_STEP][PASSED] - Email = data.getValue("EmailAddress", index): null
+
+2020-02-06 19:43:17 - [TEST_STEP][PASSED] - AccountType = data.getValue("AccountType", index): null
+
+2020-02-06 19:43:17 - [TEST_STEP][PASSED] - RoutingNumber = data.getValue("RoutingNumber", index): null
+
+2020-02-06 19:43:17 - [TEST_STEP][PASSED] - AccountNumber = data.getValue("AccountNumber", index): null
+
+2020-02-06 19:43:17 - [TEST_STEP][PASSED] - ConfirmAccountNumber = data.getValue("ConfirmAccountNumber", index): null
+
+2020-02-06 19:43:17 - [TEST_STEP][PASSED] - Signature = data.getValue("Signature", index): null
+
+2020-02-06 19:43:17 - [TEST_STEP][PASSED] - Agreement = data.getValue("Agreement", index): null
+
+2020-02-06 19:43:17 - [TEST_STEP][PASSED] - utilities.SafeActions.openBrowser(Genericsti_url, [pageLoadTime]): Browser launched successfully
+
+2020-02-06 19:43:17 - [MESSAGE][INFO] - Opening Browser
+
+2020-02-06 19:43:17 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-02-06 19:43:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-02-06 19:43:23 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa-certpaygenericsti.faps.net/genericsti/demo/'
+
+2020-02-06 19:43:24 - [MESSAGE][PASSED] - Current window maximized
+
+2020-02-06 19:43:24 - [MESSAGE][PASSED] - Browser launched successfully
+
+2020-02-06 19:43:24 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Demo_Pages/BEGIN_PAYMENT"), "Begin Payment", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Begin Payment
+
+2020-02-06 19:43:24 - [MESSAGE][INFO] - safeClicking
+
+2020-02-06 19:43:24 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Demo_Pages/BEGIN_PAYMENT' is present
+
+2020-02-06 19:43:25 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Demo_Pages/BEGIN_PAYMENT' is clickable
+
+2020-02-06 19:43:27 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Demo_Pages/BEGIN_PAYMENT' is clicked on
+
+2020-02-06 19:43:27 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Begin Payment
+
+2020-02-06 19:43:27 - [TEST_STEP][PASSED] - XMLString = utilities.SafeActions.CreateXML(FirstName, LastName, Amount, Address, Email, Telephone): utilities.SafeActions.CreateXML is PASSED
+
+2020-02-06 19:43:27 - [MESSAGE][INFO] - Create XML
+
+2020-02-06 19:43:27 - [MESSAGE][PASSED] - utilities.SafeActions.CreateXML is PASSED
+
+2020-02-06 19:43:27 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_GENERICSTI/XML_Page/XML"), XMLString, "XMLContent", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Entered'&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;Transaction xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+    &lt;BT_ID&gt;123456789&lt;/BT_ID&gt;
+    &lt;Protocol&gt;
+        &lt;RTU&gt;https://certifiedpayments.net/&lt;/RTU&gt;
+        &lt;RLU&gt;https://certifiedpayments.net/&lt;/RLU&gt;
+    &lt;/Protocol&gt;
+    &lt;Billing&gt;
+        &lt;FN Return=&quot;false&quot;&gt;Vaishnavi&lt;/FN&gt;
+        &lt;MN Return=&quot;false&quot;&gt;K.&lt;/MN&gt;
+        &lt;LN Return=&quot;false&quot;&gt;H&lt;/LN&gt;
+        &lt;Sufx Return=&quot;false&quot; /&gt;
+        &lt;AD1 Return=&quot;false&quot;&gt;1345 Sunset Boulevard&lt;/AD1&gt;
+        &lt;AD2 Return=&quot;false&quot;&gt;Apt. A&lt;/AD2&gt;
+        &lt;CTY Return=&quot;false&quot;&gt;New York&lt;/CTY&gt;
+        &lt;ST Return=&quot;false&quot;&gt;NY&lt;/ST&gt;
+        &lt;CNTY Return=&quot;false&quot;&gt;US&lt;/CNTY&gt;
+        &lt;Phone Return=&quot;false&quot;&gt;555-1234&lt;/Phone&gt;
+        &lt;Postal Return=&quot;false&quot;&gt;10018&lt;/Postal&gt;
+        &lt;Email Return=&quot;false&quot;&gt;Test@knila.com&lt;/Email&gt;
+    &lt;/Billing&gt;
+    &lt;Items&gt;
+        &lt;CI&gt;
+            &lt;Amount Edit=&quot;true&quot;&gt;20.00&lt;/Amount&gt;
+            &lt;BC&gt;6100000&lt;/BC&gt;
+            &lt;CFS&gt;
+                &lt;CF Edit=&quot;false&quot; Return=&quot;false&quot;&gt;
+                    &lt;CFN&gt;Order Number&lt;/CFN&gt;
+                    &lt;CFV&gt;123456789&lt;/CFV&gt;
+                    &lt;VP&gt;\d{9}&lt;/VP&gt;
+                &lt;/CF&gt;
+                &lt;CF Edit=&quot;false&quot; Return=&quot;false&quot;&gt;
+                    &lt;CFN&gt;Description&lt;/CFN&gt;
+                    &lt;CFV&gt;Speeding Ticket&lt;/CFV&gt;
+                    &lt;VP /&gt;
+                &lt;/CF&gt;
+            &lt;/CFS&gt;
+            &lt;FN&gt;Vaishnavi&lt;/FN&gt;
+            &lt;MN&gt;K.&lt;/MN&gt;
+            &lt;LN&gt;H&lt;/LN&gt;
+            &lt;Sufx /&gt;
+            &lt;AD1&gt;1345 Sunset Boulevard&lt;/AD1&gt;
+            &lt;AD2&gt;Apt. A&lt;/AD2&gt;
+            &lt;CTY&gt;New York&lt;/CTY&gt;
+            &lt;ST&gt;NY&lt;/ST&gt;
+            &lt;CNTY&gt;US&lt;/CNTY&gt;
+            &lt;Phone&gt;555-1234&lt;/Phone&gt;
+            &lt;Postal&gt;10018&lt;/Postal&gt;
+        &lt;/CI&gt;
+      
+    &lt;/Items&gt;
+&lt;/Transaction&gt; into XMLContent
+
+2020-02-06 19:43:28 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/XML_Page/XML' is present
+
+2020-02-06 19:43:28 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/XML_Page/XML' is visible
+
+2020-02-06 19:43:28 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/XML_Page/XML' is present
+
+2020-02-06 19:43:38 - [MESSAGE][PASSED] - Text '&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;Transaction xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+    &lt;BT_ID&gt;123456789&lt;/BT_ID&gt;
+    &lt;Protocol&gt;
+        &lt;RTU&gt;https://certifiedpayments.net/&lt;/RTU&gt;
+        &lt;RLU&gt;https://certifiedpayments.net/&lt;/RLU&gt;
+    &lt;/Protocol&gt;
+    &lt;Billing&gt;
+        &lt;FN Return=&quot;false&quot;&gt;Vaishnavi&lt;/FN&gt;
+        &lt;MN Return=&quot;false&quot;&gt;K.&lt;/MN&gt;
+        &lt;LN Return=&quot;false&quot;&gt;H&lt;/LN&gt;
+        &lt;Sufx Return=&quot;false&quot; /&gt;
+        &lt;AD1 Return=&quot;false&quot;&gt;1345 Sunset Boulevard&lt;/AD1&gt;
+        &lt;AD2 Return=&quot;false&quot;&gt;Apt. A&lt;/AD2&gt;
+        &lt;CTY Return=&quot;false&quot;&gt;New York&lt;/CTY&gt;
+        &lt;ST Return=&quot;false&quot;&gt;NY&lt;/ST&gt;
+        &lt;CNTY Return=&quot;false&quot;&gt;US&lt;/CNTY&gt;
+        &lt;Phone Return=&quot;false&quot;&gt;555-1234&lt;/Phone&gt;
+        &lt;Postal Return=&quot;false&quot;&gt;10018&lt;/Postal&gt;
+        &lt;Email Return=&quot;false&quot;&gt;Test@knila.com&lt;/Email&gt;
+    &lt;/Billing&gt;
+    &lt;Items&gt;
+        &lt;CI&gt;
+            &lt;Amount Edit=&quot;true&quot;&gt;20.00&lt;/Amount&gt;
+            &lt;BC&gt;6100000&lt;/BC&gt;
+            &lt;CFS&gt;
+                &lt;CF Edit=&quot;false&quot; Return=&quot;false&quot;&gt;
+                    &lt;CFN&gt;Order Number&lt;/CFN&gt;
+                    &lt;CFV&gt;123456789&lt;/CFV&gt;
+                    &lt;VP&gt;\d{9}&lt;/VP&gt;
+                &lt;/CF&gt;
+                &lt;CF Edit=&quot;false&quot; Return=&quot;false&quot;&gt;
+                    &lt;CFN&gt;Description&lt;/CFN&gt;
+                    &lt;CFV&gt;Speeding Ticket&lt;/CFV&gt;
+                    &lt;VP /&gt;
+                &lt;/CF&gt;
+            &lt;/CFS&gt;
+            &lt;FN&gt;Vaishnavi&lt;/FN&gt;
+            &lt;MN&gt;K.&lt;/MN&gt;
+            &lt;LN&gt;H&lt;/LN&gt;
+            &lt;Sufx /&gt;
+            &lt;AD1&gt;1345 Sunset Boulevard&lt;/AD1&gt;
+            &lt;AD2&gt;Apt. A&lt;/AD2&gt;
+            &lt;CTY&gt;New York&lt;/CTY&gt;
+            &lt;ST&gt;NY&lt;/ST&gt;
+            &lt;CNTY&gt;US&lt;/CNTY&gt;
+            &lt;Phone&gt;555-1234&lt;/Phone&gt;
+            &lt;Postal&gt;10018&lt;/Postal&gt;
+        &lt;/CI&gt;
+      
+    &lt;/Items&gt;
+&lt;/Transaction&gt;' is set on object 'Object Repository/CERTPAY_GENERICSTI/XML_Page/XML'
+
+2020-02-06 19:43:38 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Entered'&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;Transaction xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+    &lt;BT_ID&gt;123456789&lt;/BT_ID&gt;
+    &lt;Protocol&gt;
+        &lt;RTU&gt;https://certifiedpayments.net/&lt;/RTU&gt;
+        &lt;RLU&gt;https://certifiedpayments.net/&lt;/RLU&gt;
+    &lt;/Protocol&gt;
+    &lt;Billing&gt;
+        &lt;FN Return=&quot;false&quot;&gt;Vaishnavi&lt;/FN&gt;
+        &lt;MN Return=&quot;false&quot;&gt;K.&lt;/MN&gt;
+        &lt;LN Return=&quot;false&quot;&gt;H&lt;/LN&gt;
+        &lt;Sufx Return=&quot;false&quot; /&gt;
+        &lt;AD1 Return=&quot;false&quot;&gt;1345 Sunset Boulevard&lt;/AD1&gt;
+        &lt;AD2 Return=&quot;false&quot;&gt;Apt. A&lt;/AD2&gt;
+        &lt;CTY Return=&quot;false&quot;&gt;New York&lt;/CTY&gt;
+        &lt;ST Return=&quot;false&quot;&gt;NY&lt;/ST&gt;
+        &lt;CNTY Return=&quot;false&quot;&gt;US&lt;/CNTY&gt;
+        &lt;Phone Return=&quot;false&quot;&gt;555-1234&lt;/Phone&gt;
+        &lt;Postal Return=&quot;false&quot;&gt;10018&lt;/Postal&gt;
+        &lt;Email Return=&quot;false&quot;&gt;Test@knila.com&lt;/Email&gt;
+    &lt;/Billing&gt;
+    &lt;Items&gt;
+        &lt;CI&gt;
+            &lt;Amount Edit=&quot;true&quot;&gt;20.00&lt;/Amount&gt;
+            &lt;BC&gt;6100000&lt;/BC&gt;
+            &lt;CFS&gt;
+                &lt;CF Edit=&quot;false&quot; Return=&quot;false&quot;&gt;
+                    &lt;CFN&gt;Order Number&lt;/CFN&gt;
+                    &lt;CFV&gt;123456789&lt;/CFV&gt;
+                    &lt;VP&gt;\d{9}&lt;/VP&gt;
+                &lt;/CF&gt;
+                &lt;CF Edit=&quot;false&quot; Return=&quot;false&quot;&gt;
+                    &lt;CFN&gt;Description&lt;/CFN&gt;
+                    &lt;CFV&gt;Speeding Ticket&lt;/CFV&gt;
+                    &lt;VP /&gt;
+                &lt;/CF&gt;
+            &lt;/CFS&gt;
+            &lt;FN&gt;Vaishnavi&lt;/FN&gt;
+            &lt;MN&gt;K.&lt;/MN&gt;
+            &lt;LN&gt;H&lt;/LN&gt;
+            &lt;Sufx /&gt;
+            &lt;AD1&gt;1345 Sunset Boulevard&lt;/AD1&gt;
+            &lt;AD2&gt;Apt. A&lt;/AD2&gt;
+            &lt;CTY&gt;New York&lt;/CTY&gt;
+            &lt;ST&gt;NY&lt;/ST&gt;
+            &lt;CNTY&gt;US&lt;/CNTY&gt;
+            &lt;Phone&gt;555-1234&lt;/Phone&gt;
+            &lt;Postal&gt;10018&lt;/Postal&gt;
+        &lt;/CI&gt;
+      
+    &lt;/Items&gt;
+&lt;/Transaction&gt; into XMLContent
+
+2020-02-06 19:43:38 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/XML_Page/SUBMIT"), "Submit XML", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Submit XML
+
+2020-02-06 19:43:38 - [MESSAGE][INFO] - safeClicking
+
+2020-02-06 19:43:39 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/XML_Page/SUBMIT' is present
+
+2020-02-06 19:43:39 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/XML_Page/SUBMIT' is clickable
+
+2020-02-06 19:43:44 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/XML_Page/SUBMIT' is clicked on
+
+2020-02-06 19:43:44 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Submit XML
+
+2020-02-06 19:43:44 - [TEST_STEP][PASSED] - if (cardType == "Visa"): null
+
+2020-02-06 19:43:44 - [TEST_STEP][PASSED] - else if (cardType == "MasterCard"): null
+
+2020-02-06 19:43:44 - [TEST_STEP][PASSED] - else if (cardType == "AmericanExpress"): null
+
+2020-02-06 19:43:44 - [TEST_STEP][PASSED] - else if (cardType == "Discover"): null
+
+2020-02-06 19:43:44 - [TEST_STEP][PASSED] - else if (cardType == "Echeck"): GenericSTI_DifferentCardType.ts:Clicked on the Echeck
+
+2020-02-06 19:43:44 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Payment_Information_Page/ECHECK"), "Echeck", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Echeck
+
+2020-02-06 19:43:44 - [MESSAGE][INFO] - safeClicking
+
+2020-02-06 19:43:45 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/ECHECK' is present
+
+2020-02-06 19:43:46 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/ECHECK' is clickable
+
+2020-02-06 19:43:49 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/ECHECK' is clicked on
+
+2020-02-06 19:43:49 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Echeck
+
+2020-02-06 19:43:49 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_GENERICSTI/Payment_Information_Page/COMMENTS"), "Testing", "Comments", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Entered'Testing into Comments
+
+2020-02-06 19:43:49 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/COMMENTS' is present
+
+2020-02-06 19:43:49 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/COMMENTS' is visible
+
+2020-02-06 19:43:50 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/COMMENTS' is present
+
+2020-02-06 19:43:51 - [MESSAGE][PASSED] - Text 'Testing' is set on object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/COMMENTS'
+
+2020-02-06 19:43:51 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Entered'Testing into Comments
+
+2020-02-06 19:43:51 - [TEST_STEP][PASSED] - if (cardType == "Echeck"): GenericSTI_DifferentCardType.ts:Clicked on the Accept
+
+2020-02-06 19:43:51 - [TEST_STEP][PASSED] - if (AccountType == "Checking"): null
+
+2020-02-06 19:43:51 - [TEST_STEP][PASSED] - else if (AccountType == "Savings"): GenericSTI_DifferentCardType.ts:Clicked on the Echeck Savings
+
+2020-02-06 19:43:51 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Payment_Information_Page/ECHECK_SAVINGS"), "Echeck Savings", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Echeck Savings
+
+2020-02-06 19:43:51 - [MESSAGE][INFO] - safeClicking
+
+2020-02-06 19:43:51 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/ECHECK_SAVINGS' is present
+
+2020-02-06 19:43:52 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/ECHECK_SAVINGS' is clickable
+
+2020-02-06 19:43:53 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/ECHECK_SAVINGS' is clicked on
+
+2020-02-06 19:43:53 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Echeck Savings
+
+2020-02-06 19:43:53 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_GENERICSTI/Payment_Information_Page/ROUTING_NUMBER"), RoutingNumber, "Routing Number", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Entered'042000013 into Routing Number
+
+2020-02-06 19:43:53 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/ROUTING_NUMBER' is present
+
+2020-02-06 19:43:54 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/ROUTING_NUMBER' is visible
+
+2020-02-06 19:43:54 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/ROUTING_NUMBER' is present
+
+2020-02-06 19:43:56 - [MESSAGE][PASSED] - Text '042000013' is set on object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/ROUTING_NUMBER'
+
+2020-02-06 19:43:56 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Entered'042000013 into Routing Number
+
+2020-02-06 19:43:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("CERTPAY_GENERICSTI/Payment_Information_Page/BANK_NAME"), Keys.chord(TAB)): Keys 'TAB + ' sent to object: 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/BANK_NAME'
+
+2020-02-06 19:43:56 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/BANK_NAME'
+
+2020-02-06 19:43:56 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_GENERICSTI/Payment_Information_Page/ACCOUNT_NUMBER"), AccountNumber, "Account Number", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Entered'425316 into Account Number
+
+2020-02-06 19:43:57 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/ACCOUNT_NUMBER' is present
+
+2020-02-06 19:43:58 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/ACCOUNT_NUMBER' is visible
+
+2020-02-06 19:43:58 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/ACCOUNT_NUMBER' is present
+
+2020-02-06 19:43:59 - [MESSAGE][PASSED] - Text '425316' is set on object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/ACCOUNT_NUMBER'
+
+2020-02-06 19:43:59 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Entered'425316 into Account Number
+
+2020-02-06 19:43:59 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_GENERICSTI/Payment_Information_Page/CONFIRM_ACCOUNT_NUMBER"), ConfirmAccountNumber, "ConfirmAccountNumber", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Entered'425316 into ConfirmAccountNumber
+
+2020-02-06 19:44:00 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/CONFIRM_ACCOUNT_NUMBER' is present
+
+2020-02-06 19:44:00 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/CONFIRM_ACCOUNT_NUMBER' is visible
+
+2020-02-06 19:44:00 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/CONFIRM_ACCOUNT_NUMBER' is present
+
+2020-02-06 19:44:02 - [MESSAGE][PASSED] - Text '425316' is set on object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/CONFIRM_ACCOUNT_NUMBER'
+
+2020-02-06 19:44:02 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Entered'425316 into ConfirmAccountNumber
+
+2020-02-06 19:44:02 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_GENERICSTI/Payment_Information_Page/SIGNATURE"), Signature, "Signature", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Entered'Susmitha into Signature
+
+2020-02-06 19:44:02 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/SIGNATURE' is present
+
+2020-02-06 19:44:02 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/SIGNATURE' is visible
+
+2020-02-06 19:44:03 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/SIGNATURE' is present
+
+2020-02-06 19:44:04 - [MESSAGE][PASSED] - Text 'Susmitha' is set on object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/SIGNATURE'
+
+2020-02-06 19:44:04 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Entered'Susmitha into Signature
+
+2020-02-06 19:44:04 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_GENERICSTI/Payment_Information_Page/AGREEMENT"), Agreement, "Agreement", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Entered'Yes into Agreement
+
+2020-02-06 19:44:04 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/AGREEMENT' is present
+
+2020-02-06 19:44:05 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/AGREEMENT' is visible
+
+2020-02-06 19:44:05 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/AGREEMENT' is present
+
+2020-02-06 19:44:06 - [MESSAGE][PASSED] - Text 'Yes' is set on object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/AGREEMENT'
+
+2020-02-06 19:44:06 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Entered'Yes into Agreement
+
+2020-02-06 19:44:06 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Payment_Information_Page/ECHECK_NEXT"), "Next", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Next
+
+2020-02-06 19:44:06 - [MESSAGE][INFO] - safeClicking
+
+2020-02-06 19:44:07 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/ECHECK_NEXT' is present
+
+2020-02-06 19:44:07 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/ECHECK_NEXT' is clickable
+
+2020-02-06 19:44:08 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/ECHECK_NEXT' is clicked on
+
+2020-02-06 19:44:08 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Next
+
+2020-02-06 19:44:08 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Confirm_Payment_Page/ECHECK_ACCEPT"), "Accept", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Accept
+
+2020-02-06 19:44:08 - [MESSAGE][INFO] - safeClicking
+
+2020-02-06 19:44:09 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Confirm_Payment_Page/ECHECK_ACCEPT' is present
+
+2020-02-06 19:44:09 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Confirm_Payment_Page/ECHECK_ACCEPT' is clickable
+
+2020-02-06 19:44:13 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Confirm_Payment_Page/ECHECK_ACCEPT' is clicked on
+
+2020-02-06 19:44:13 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Accept
+
+2020-02-06 19:44:13 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Review_Payment_Page/PROCESS_PAYMENT"), "Process payment", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Process payment
+
+2020-02-06 19:44:13 - [MESSAGE][INFO] - safeClicking
+
+2020-02-06 19:44:14 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Review_Payment_Page/PROCESS_PAYMENT' is present
+
+2020-02-06 19:44:14 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Review_Payment_Page/PROCESS_PAYMENT' is clickable
+
+2020-02-06 19:44:16 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Review_Payment_Page/PROCESS_PAYMENT' is clicked on
+
+2020-02-06 19:44:16 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Process payment
+
+2020-02-06 19:44:16 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Confirm_Payment_Page/CONFIRM_YES"), "Confirm Yes", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Confirm Yes
+
+2020-02-06 19:44:16 - [MESSAGE][INFO] - safeClicking
+
+2020-02-06 19:44:16 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Confirm_Payment_Page/CONFIRM_YES' is present
+
+2020-02-06 19:44:17 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Confirm_Payment_Page/CONFIRM_YES' is clickable
+
+2020-02-06 19:44:20 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Confirm_Payment_Page/CONFIRM_YES' is clicked on
+
+2020-02-06 19:44:20 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Confirm Yes
+
+2020-02-06 19:44:20 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Payment_Details_Verification_Page/NEXT"), "Next", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Next
+
+2020-02-06 19:44:21 - [MESSAGE][INFO] - safeClicking
+
+2020-02-06 19:44:21 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Details_Verification_Page/NEXT' is present
+
+2020-02-06 19:44:21 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Details_Verification_Page/NEXT' is clickable
+
+2020-02-06 19:44:26 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Payment_Details_Verification_Page/NEXT' is clicked on
+
+2020-02-06 19:44:26 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Next]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-02-06 19:37:37 - [TEST_SUITE][PASSED] - GenericSTI_DifferentCardType: Test Cases/Certpay_GenericSTI/TC_001_SingleLinePayments]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
